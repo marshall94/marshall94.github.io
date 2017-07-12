@@ -113,10 +113,9 @@
   .social a {
     margin-right: 10px; }
   .social .fa {
-    font-size: 15px; } }
-
-.sign-up input {
-  width: 545px; }
+    font-size: 15px; }
+  .sign-up input {
+    width: 545px; } }
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -137,7 +136,34 @@
       width: 100%;
       max-width: 400px; }
   footer {
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
+    footer .links {
+      display: none; }
+    footer .contact {
+      margin-bottom: 15px; }
   .footer-logo {
     text-align: center;
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .sign-up {
+    text-align: center; }
+    .sign-up input {
+      width: 400px;
+      margin-bottom: 5px; }
+  .form-button {
+    text-align: center; } }
+
+@media screen and (max-width: 468px) {
+  .sign-up {
+    text-align: center; }
+    .sign-up input {
+      width: 400px;
+      margin-bottom: 5px; }
+  .form-button {
+    text-align: center; }
+  .links {
+    display: none; }
+  footer {
+    text-align: center; }
+  .col-price a.button {
+    padding: 5px 15px; } }
