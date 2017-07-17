@@ -1,0 +1,154 @@
+@media screen and (max-width:1400px){
+	.text_slider{
+		 	padding-top: 75px;
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			position:static;
+	}
+
+	
+
+	.button{
+		.btn{
+			float: none;
+		    margin-right: 0;
+		    margin: 0 auto;
+		    border: 2px solid #ffea00;
+
+		}
+	}
+
+	.about_us{
+		.btn{
+			margin: 0 ;
+		}
+	}
+	
+
+}
+
+
+@media screen and (max-width:1200px){}
+
+@media screen and (max-width:1150px){
+	.bx_next {
+	    right: -15px;
+	    top: 50%;
+	    margin-top: -35px;
+	}
+
+	.bx_prev{
+	    left: -15px;
+	    top: 50%;
+	    margin-top: -35px;
+	}
+}
+
+@media screen and (max-width:992px){
+	.logo_img{
+		margin-left:0;
+		margin:0 auto;
+	}
+
+	.top_menu{
+		text-align: center;
+
+		ul{
+			line-height: 80px;
+			margin-right:0;
+		}
+	}
+
+	.top_menu ul li a {
+   	height: 40px;
+    width: 90px;
+   	line-height: 40px;
+    font-size: 0.9rem;
+	}
+
+	.text_slider{
+		h2{
+			font-size: 4rem;
+		}
+	}
+
+	.col{
+		margin-bottom:20px;
+	}
+
+	.tweets, .photo{
+		display:none;
+	}
+
+    .contact_info, .follow, .about_us, .social{
+    	text-align:center;
+    }
+
+    .social{
+    	h4{
+    		display:block;
+    	}
+
+    	.social_link{
+    		margin-bottom:20px;
+    	}
+    }
+
+    .about_us .button .btn {
+	    margin: 0 auto;
+	}
+
+	.sidebar_right{
+		display:none;
+	}
+
+	.flex_container{
+		width:100%;
+	}
+
+	.right_content{
+		margin-right:0;
+	}
+
+	.left_content, .right_content{
+		margin-right:10px;
+		width:47%;
+	}
+	
+
+
+}
+
+@media screen and (max-width:768px){}
+@media screen and (max-width:667px){
+	.flex_container{
+		flex-direction: column;
+	}
+
+	.item_news{
+		img{
+			width:100%;
+		}
+	}
+
+	.left_content, .right_content{
+		margin-right:0;
+		width:99%;
+	}
+
+	.copyright{
+		text-align:center;
+	}
+
+	.footer_menu{
+		display:none;
+	}
+}
+@media screen and (max-width:640px){}
+@media screen and (max-width:568px){}
+@media screen and (max-width:480px){}
+@media screen and (max-width:414px){}
+@media screen and (max-width:375px){}
+@media screen and (max-width:360px){}
+@media screen and (max-width:320px){}
