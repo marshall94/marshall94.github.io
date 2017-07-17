@@ -147,9 +147,11 @@
     margin-bottom: 35px; }
   .sign-up {
     text-align: center; }
-    .sign-up input {
-      width: 400px;
-      margin-bottom: 5px; }
+    .sign-up form {
+      width: 100%; }
+      .sign-up form input {
+        width: 100%;
+        margin-bottom: 5px; }
   .form-button {
     text-align: center; } }
 

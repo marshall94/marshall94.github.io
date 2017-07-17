@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6, .button {
   .group-contact .text p {
     font-size: 13.5px;
     display: block;
-    width: 484px; }
+    width: 100%; }
   .group-contact .address, .group-contact .email-address, .group-contact .phone, .group-contact .social-media {
     width: 49%;
     display: inline-block;
