@@ -10,7 +10,7 @@ body {
 
 .hr {
   display: block;
-  width: 350px;
+  width: 80%;
   height: 3px;
   background-color: #ff3b3b;
   margin: 0 auto; }
@@ -39,7 +39,7 @@ ul {
 /*-----HEADER-----*/
 header {
   height: 100vh;
-  min-height: 850px;
+  min-height: 700px;
   background: url(../img/fon-header.png) no-repeat;
   -webkit-background-size: cover;
           background-size: cover;

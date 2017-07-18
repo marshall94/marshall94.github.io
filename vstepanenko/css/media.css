@@ -60,6 +60,16 @@
   .block-img .item_img:nth-last-child(1) {
     display: none; } }
 
+@media screen and (max-width: 375px) {
+  .description .name::after {
+    font-size: 97px;
+    top: -23px;
+    right: -40px; }
+  .description .name span {
+    font-size: 2rem !important; }
+  .description .name {
+    border-bottom: 7.5px solid #2d2d2d; } }
+
 @media screen and (max-width: 330px) {
   .block-img .item_img:nth-last-child(2) {
     display: none; } }
