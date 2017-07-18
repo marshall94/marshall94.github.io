@@ -50,14 +50,36 @@ a {
   background: -o-linear-gradient(left, #990000, #CC3399, #CC66FF);
   background: linear-gradient(left, #990000, #CC3399, #CC66FF); }
   .center_slider h4 {
-    font-size: 7rem;
+    font-size: 8em;
     color: gold; }
   .center_slider h3 {
-    font-size: 3rem;
+    font-size: 5em;
     color: #fff; }
 
 .active {
   background: #ffea00; }
+
+.responsive {
+  display: none; }
+  .responsive ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; }
+    .responsive ul li:last-child {
+      margin-bottom: 0; }
+    .responsive ul li a {
+      color: #424146;
+      display: block;
+      font-size: 2em; }
+
+.btn_menu {
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+  display: none; }
+  .btn_menu .fa {
+    color: #ffea00;
+    font-size: 3em; }
 
 /*----HEADER----*/
 .top_line {
@@ -251,6 +273,7 @@ a {
     margin-bottom: 30px; }
   .col_two .img h4, .col_three .img h4, .col_four .img h4 {
     font-family: "Muli-Light";
+    font-size: 0.83rem;
     text-transform: uppercase; }
 
 .col_three .img img {
@@ -280,7 +303,8 @@ a {
     margin-top: -15px;
     margin-bottom: 35px; }
   .title_work p {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-size: 0.83rem; }
 
 /*----WORK END----*/
 /*----CLIENTS----*/
@@ -302,7 +326,8 @@ a {
       margin-top: -15px;
       margin-bottom: 35px; }
     .clients .title_clients p {
-      margin-bottom: 40px; }
+      margin-bottom: 40px;
+      font-size: 0.83rem; }
 
 .slider_bottom {
   position: relative; }

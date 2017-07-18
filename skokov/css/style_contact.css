@@ -56,6 +56,28 @@ a {
 .active {
   background: #ffea00; }
 
+.responsive {
+  display: none; }
+  .responsive ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; }
+    .responsive ul li:last-child {
+      margin-bottom: 0; }
+    .responsive ul li a {
+      color: #424146;
+      display: block;
+      font-size: 2em; }
+
+.btn_menu {
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0;
+  display: none; }
+  .btn_menu .fa {
+    color: #ffea00;
+    font-size: 3em; }
+
 /*----HEADER----*/
 .top_line {
   padding: 10px 0; }

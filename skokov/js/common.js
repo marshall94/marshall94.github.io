@@ -19,6 +19,20 @@ $(document).ready(function(){
 	});
 });
 
+//Mobile menu
+$(document).ready(function() {
+	
+  $('.btn_menu').click(function() {
+    $('.responsive').slideToggle(500);
+  });//end slide toggle
+
+  $(window).resize(function() {		
+	if ( $(window).width() > 768 ) {			
+		$('.responsive').removeAttr('style');
+		 }
+	});//end resize
+ });//end ready
+
 $(document).ready(function(){
                                    
     $('nav a').each(function () {           // получаем все нужные нам ссылки
