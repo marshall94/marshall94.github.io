@@ -289,7 +289,8 @@ a {
   padding-bottom: 80px; }
 
 .title_work {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.3em; }
   .title_work span {
     display: block;
     height: 30px;
@@ -312,7 +313,8 @@ a {
   border-top: 2px solid #cacaca;
   padding-bottom: 120px; }
   .clients .title_clients {
-    text-align: center; }
+    text-align: center;
+    font-size: 1.3em; }
     .clients .title_clients span {
       display: block;
       height: 30px;

@@ -65,7 +65,13 @@
     margin-right: 0; }
   .left_content, .right_content {
     margin-right: 10px;
-    width: 47%; } }
+    width: 47%; }
+  .copyright {
+    text-align: center; }
+  .footer_menu {
+    display: none; }
+  .follow {
+    margin-bottom: 25px; } }
 
 @media screen and (max-width: 768px) {
   .top_menu {
@@ -73,7 +79,7 @@
   .btn_menu {
     display: block; }
   body {
-    font-size: 8px; }
+    font-size: 10px; }
   .text_slider h2 {
     font-size: 3rem; } }
 
@@ -96,7 +102,7 @@
 
 @media screen and (max-width: 640px) {
   body {
-    font-size: 6px; } }
+    font-size: 8px; } }
 
 @media screen and (max-width: 568px) {
   .text_slider h2 {
