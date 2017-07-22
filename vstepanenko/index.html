@@ -12,8 +12,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<!--Animate-->
 	<link rel="stylesheet" href="libs/animate/animate-min.css">
-	<!--Bxslider-->
-	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css">
+	
 	<!--Css-->
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -30,18 +29,16 @@
 					</div>
 					<nav class="mobaile-menu">
 						<ul>
-							<li><a href="#">home</a></li>
+							<li><a href="#about_me">about me</a></li>
 							<li><a href="#portfolio">portfolio</a></li>
-							<li><a href="#">about us</a></li>
 							<li><a href="#contact">contact</a></li>
 						</ul>
 					</nav>
 					
 					<nav class="primary-menu">
 						<ul class="clearfix">
-							<li><a href="#">home</a></li>
+							<li><a href="#about_me">about me</a></li>
 							<li><a href="#portfolio">portfolio</a></li>
-							<li><a href="#">about us</a></li>
 							<li><a href="#contact">contact</a></li>
 							<a href="index_ru.html" class="language">RU</a>
 						</ul>
@@ -83,51 +80,84 @@
 				<div class="item_img"><img src="img/block-img/bootstrap.png" alt="boostrap" title="Boostrap" style="border:5px solid #5E4485; border-radius:50%;"></div>
 				<div class="item_img"><img src="img/block-img/sass.png" alt="sass" title="Sass" style="border:5px solid #CF649A; border-radius:50%;"></div>
 			</div>
+
+		</div>
+
+	</section>
+	<section id="about_me" class="info">
+		<div class="container">
+			<h4 class="title_info">About me</h4>
+			<p class="description_info"> Hello! My name is Vitaliy Stepanenko and I'm a novice web developer. I'm 23 years old, at the moment I'm studying for a computer engineer. </p> 
+			 <p class="description_info">Not so long ago I began to actively study the web development. At first I thought that this would be my hobby, however, in the process of studying it came to understand that the creation of sites is my path and I want to go on it to the end. </p>
+             <p class="description_info">For this, I am ready to develop, improve and follow new trends in the chosen field.
+</p>
 		</div>
 	</section>
-
-	<section class="slider">
-		<div class="container-fluid">
-			<ul class="bxslider">
-			  <li>
-				  <div class="content-slider">
-				  	
-				  </div>
-			  </li>
-			  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nam doloremque provident et facilis, voluptatem possimus molestiae ex enim ipsam earum, nesciunt, dolorum. Eum, laboriosam.</li>
-			  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis omnis magnam doloremque nulla vel quaerat optio molestias veritatis magni nam autem vero eaque voluptatibus ipsa saepe, obcaecati architecto tempore in.</li>
-			  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sapiente rerum laborum quos consequuntur, laudantium porro, consequatur dolor mollitia aliquid aut incidunt aliquam in animi deserunt totam, repellat. Ipsa culpa facere quia? Laboriosam aut, adipisci.</li>
+	
+	<section  class="skills">
+		<div class="container">
+			<h4 class="title_info">My skills:</h4>
+			<ul>
+				<li>HTML5 & CSS3</li>
+				<li>Adaptive layout</li>
+				<li>Mesh layout bootstrap</li>
+				<li>Work and configuration of ready-made solutions (plug-ins) for jQuery</li>
+				<li>First level Javascript</li>
+				<li>Knowledge of Photoshop at the level of "cutting" the layouts</li>
+				<li>Using Preprocessors SASS/SCSS</li>
+				<li>Build the project with help GULP</li>
 			</ul>
 		</div>
-	</section>
 
+	</section>
 	<section id="portfolio" class="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title">
 						<h4>portfolio</h4>
-						<br>
-						<span class="description-portfolio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illo, dolorem eaque odio sit repudiandae, sint voluptates? Excepturi, eligendi repudiandae assumenda quasi vel nulla at?</span>
-						<div class="hr"></div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-md-6 col-lg-4">
 					<div class="hosting site" >
+						<img class="img_small" src="img/bg-portfolio/hosting-img.png" alt="">
+						<img class="img_horizontal" src="img/bg-portfolio/hosting-lg.png" alt="">
 						<a href="https://marshallcompany.github.io/hosting/" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
 					</div>
 				</div>
-				<div class="col-lg-4">
+
+				<div class="col-md-6 col-lg-4">
+					<div class="skokov site" >
+						<img class="img_small" src="img/bg-portfolio/skokov-img.png" alt="">
+						<img class="img_horizontal" src="img/bg-portfolio/skokov-lg.png" alt="">
+						<a href="https://marshallcompany.github.io/skokov/" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
+					</div>
+				</div>
+				
+				<div class="col-md-6 col-lg-4">
+					<div class="waxom site" >
+						<img class="img_small" src="img/bg-portfolio/waxom-img.png" alt="">
+						<img class="img_horizontal" src="img/bg-portfolio/waxom-lg.png" alt="">
+						<a href="https://marshallcompany.github.io/Waxom/" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
 					<div class="kappe site" >
-						<a href="" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
+						<img class="img_small" src="img/bg-portfolio/kappe-img.png" alt="">
+						<img class="img_horizontal" src="img/bg-portfolio/kappe-lg.png" alt="">
+						<a href="https://marshallcompany.github.io/kappe/" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
 					</div>
 				</div>
-				<div class="col-lg-4">
+
+				<div class="col-md-6 col-lg-4">
 					<div class="psd-in site" >
-						<a href="" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
+						<img class="img_small" src="img/bg-portfolio/flat-portfolio-img.png" alt="">
+						<img class="img_horizontal" src="img/bg-portfolio/flat-portfolio-lg.png" alt="">
+						<a href="https://marshallcompany.github.io/flat/" target="_blank" class="open"><i class="fa fa-power-off" ></i>Open</a>
 					</div>
 				</div>
-				<div class="col-lg-3"></div>
+				
 			</div>
 		</div>
 	</section>
@@ -178,7 +208,7 @@
 	<script>
         new WOW().init();
      </script>
-	<script src="libs/bxslider/jquery.bxslider.min.js"></script>
+	
 	<script src="js/common.js"></script>
 </body>
 </html>

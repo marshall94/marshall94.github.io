@@ -2,34 +2,28 @@
   .image-md {
     display: none; } }
 
+@media screen and (min-width: 768px) {
+  .img_horizontal {
+    display: none; } }
+
 @media screen and (max-width: 992px) {
   .description {
     text-align: center; }
   .name {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 50px; }
+  .image-md {
+    margin-bottom: 50px; }
   .image {
     display: none; }
   nav.primary-menu {
     margin-bottom: 95px; }
-  .psd-in {
-    background: url(../img/bg-portfolio/flat-portfolio-lg.png) center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-            background-size: cover; }
-  .hosting {
-    background: url(../img/bg-portfolio/hosting-lg.png) center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-            background-size: cover; }
-  .kappe {
-    background: url(../img/bg-portfolio/kappe-lg.png) center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-            background-size: cover; }
   .mail, .map, .contact {
     margin-bottom: 25px; } }
 
 @media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 100px; }
   .description {
     margin-top: 30px; }
     .description .name {
@@ -54,7 +48,13 @@
   .responsive-menu {
     display: block; }
   .primary-menu {
+    display: none; }
+  img.img_small {
     display: none; } }
+
+@media screen and (max-width: 640px) {
+  .skills ul {
+    width: 100%; } }
 
 @media screen and (max-width: 480px) {
   .block-img .item_img:nth-last-child(1) {

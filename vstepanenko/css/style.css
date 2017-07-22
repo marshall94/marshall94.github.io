@@ -36,15 +36,17 @@ ul {
   display: block;
   clear: both; }
 
+img {
+  max-width: 100%; }
+
 /*-----HEADER-----*/
 header {
-  height: 100vh;
-  min-height: 700px;
   background: url(../img/fon-header.png) no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   background-attachment: fixed;
-  position: relative; }
+  position: relative;
+  padding-bottom: 200px; }
   header::before {
     content: " ";
     position: absolute;
@@ -128,32 +130,32 @@ nav.primary-menu {
       background-color: #fff;
       color: #1B1B1B; }
 
-.description .name {
+.prof {
+  display: inline-block;
+  border-bottom: 3px solid #ff3b3b;
+  padding-bottom: 10px;
+  margin-bottom: 25px; }
+  .prof span {
+    color: #fff;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem; }
+
+.name {
   border-bottom: 14px solid #1B1B1B;
   display: inline-block;
   margin-bottom: 25px;
   position: relative; }
-  .description .name::after {
+  .name::after {
     content: "]";
     font-size: 175px;
     color: #ff3b3b;
     position: absolute;
     top: -25px;
     right: -50px; }
-  .description .name span {
+  .name span {
     font-size: 4rem;
     font-family: "Roboto-Bold";
     color: #fff; }
-
-.description .prof {
-  display: inline-block;
-  border-bottom: 3px solid #ff3b3b;
-  padding-bottom: 10px;
-  margin-bottom: 25px; }
-  .description .prof span {
-    color: #fff;
-    font-family: "Roboto-Regular";
-    font-size: 1.5rem; }
 
 .social .fa.fa-skype {
   color: #00AFF0; }
@@ -202,8 +204,8 @@ nav.primary-menu {
   text-align: center;
   padding: 25px 0;
   background-color: #1B1B1B;
-  border-top: 4px solid #386741;
-  border-bottom: 4px solid #E44D26; }
+  border-top: 10px solid #386741;
+  border-bottom: 10px solid #E44D26; }
 
 .img {
   display: -webkit-box;
@@ -218,27 +220,46 @@ nav.primary-menu {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-/*----BXSLIDER----*/
-.slider {
-  background: url(../img/bg-slider.png); }
+/*----INFO----*/
+.info {
+  padding: 25px 0;
+  background-color: #D6D6D6;
+  border-bottom: 10px solid #5E4485; }
 
-.bx-wrapper {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border: none;
-  background-color: transparent;
-  color: #7c7c7c; }
+.title_info {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Roboto-Bold";
+  margin-bottom: 25px; }
 
-.content-slider {
-  height: 350px; }
+.description_info {
+  font-size: 1.1em;
+  text-indent: 20px;
+  line-height: 1.7; }
+
+.skills {
+  padding: 25px 0;
+  background-color: #D6D6D6;
+  border-bottom: 10px solid #CF649A; }
+  .skills ul {
+    display: block;
+    width: 470px;
+    margin: 0 auto; }
+    .skills ul li {
+      list-style-type: disc;
+      list-style-position: inside;
+      margin-bottom: 10px; }
+      .skills ul li:last-child {
+        margin-bottom: 0; }
 
 /*----PORTFOLIO----*/
 .portfolio {
   background: #1B1B1B;
-  background: -webkit-gradient(linear, left top, right top, from(#9933CC), color-stop(#3366FF), to(#339933));
-  background: -webkit-linear-gradient(left, #9933CC, #3366FF, #339933);
-  background: -o-linear-gradient(left, #9933CC, #3366FF, #339933);
-  background: linear-gradient(left, #9933CC, #3366FF, #339933);
+  background: -webkit-gradient(linear, left top, right top, from(#9933CC), color-stop(#333399), to(#339933));
+  background: -webkit-linear-gradient(left, #9933CC, #333399, #339933);
+  background: -o-linear-gradient(left, #9933CC, #333399, #339933);
+  background: linear-gradient(left, #9933CC, #333399, #339933);
   padding: 25px 0; }
   .portfolio a:hover {
     -webkit-transform: scale(1.7);
@@ -258,21 +279,8 @@ nav.primary-menu {
   color: #fff;
   margin-bottom: 25px; }
 
-.hosting {
-  background: url(../img/bg-portfolio/hosting-img.png) center center; }
-
-.kappe {
-  background: url(../img/bg-portfolio/kappe-img.png) center center; }
-
-.psd-in {
-  background: url(../img/bg-portfolio/flat-portfolio.png) center center; }
-
 .site {
   position: relative;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover;
-  height: 300px;
   overflow: hidden;
   margin-bottom: 20px; }
   .site a .fa {
@@ -282,7 +290,7 @@ nav.primary-menu {
     content: " ";
     position: absolute;
     width: 100%;
-    height: 101%;
+    height: 99%;
     background-color: rgba(45, 45, 45, 0.5);
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
@@ -397,4 +405,5 @@ footer {
   padding: 15px 0;
   text-align: center;
   font-size: 1.3rem;
-  color: #fff; }
+  color: #fff;
+  border-top: 10px solid #ff3b3b; }
