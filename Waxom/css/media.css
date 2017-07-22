@@ -1,3 +1,33 @@
+@media screen and (max-width:1490px){
+
+	.twitter{
+		display:none;
+	}
+
+	.waxom, .post,  .widget {
+    	width: 31%;
+    	margin-left: 15px;
+    	margin-top: 106px;
+	}
+}
+
+@media screen and (max-width:1350px){
+	.form{
+		display:none;
+	}
+}
+
+@media screen and (max-width:1150px){
+
+	.post{
+		display:none;
+	}
+
+	.waxom, .widget{
+		width:40%;
+		margin:0;
+	}
+}
 @media screen and (max-width:1250px){
 	.wrapper-mobile ul li {
 		font-size: 14px;
@@ -11,11 +41,12 @@
 	}
 }
 
-@media screen and (max-width:1220px){
-
-	.slider{width:1130px;}
-	
-	
+@media screen and (max-width:1100px){
+	.left, .center, .right {
+    
+    width: 40%;
+     margin-right: 10%;
+    }
 }
 @media screen and (max-width:1070px){
 	.form{
@@ -54,30 +85,28 @@
 	
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1050px){
  .web,
  .dev,
  .cust,
- .mark {width:250px;}
+ .mark {width:45%;}
 
-.slider{width:1100px;}
+
+
+.adver a {
+    margin-right: 20px;
+    }
 
 }
+
+
 
 @media screen and (max-width:1170px){}
 
 @media screen and (max-width:1140px){
 	
 
-	.slider{width:1000px;}
 
-	.web,
- 	.dev,
- 	.cust,
- 	.mark {
- 	width:210px;
- 	margin-left:35px;
- }
 
  .content h3{
  	font-size: 15px;
@@ -100,10 +129,16 @@
 
 }
 
-@media screen and (max-width:1065px) {}
+@media screen and (max-width:860px) {
+	.waxom, .widget{
+		width:49%;
+		
+		margin:0;
+	}
+}
 
 @media screen and (max-width:1024px){
-	.slider{width:760px;}
+	
 
 	.slider h3{font-size:25px;}
 
@@ -115,8 +150,18 @@
 	}
 
 	.content-button .button{
-		padding: 13px 20px 13px 20px;
-		font-size: 12px;
+		    padding: 15px 5px 15px 5px;
+            font-size: 10px;
+    }
+
+
+    .left_text h3{
+		font-size: 13px;
+		margin-bottom: 14px;
+    }
+	
+	.left_text p{
+		font-size: 10px;
 	}
 
 	.content-xl .button{
@@ -126,18 +171,11 @@
 	.web,
  	.dev,
  	.cust,
- 	.mark {
- 		width:210px;
- 		margin-left:35px;
-
- }
+ 	.mark {}
 
  	.cust{clear:both;}
 
-	.content{
-		height:470px;
-		padding-left:19%;
-	}
+	
 
  	.content h3{font-size: 15px;}
 
@@ -180,11 +218,21 @@
 
 
 @media screen and (max-width:768px){
-	.content{
-		height:470px;
-		padding-left:10%;
+
+	.waxom, .widget{
+		width:100%;
+		text-align: center;
+		margin:0;
 	}
-	.slider{width:600px;}
+	.news-wrapper h3 {
+    font-size: 20px;
+   }
+
+   .news-wrapper p {
+    font-size: 10px;
+   }
+
+	
 	.slider h3{font-size:20px;}
 
 	.slider h2{font-size:35px;}
@@ -200,17 +248,48 @@
 		font-size: 12px;
 	}
 
+	.web,
+    .dev,
+    .cust,
+    .mark {
+    	width:100%;
+    	margin-left:0;
+    }
+
 
 	
 }
 
 
 
-@media screen and (max-width:600px){}
+@media screen and (max-width:600px){
+	.wrapper-mobile{
+		width:100%;
+	}
+
+	.mobile {
+    padding-top: 75px;
+ }
+
+ .wrapper-mobile ul li::before {
+    padding-right: 10px;
+    margin:0;
+  }
+}
 
 
 
-@media screen and (max-width:480px){}
+@media screen and (max-width:480px){
+	.new{
+		display:none;
+	}
+}
+
+@media screen and (max-width:460px){
+	.left, .center, .right {
+    	width: 100%;
+    	margin-right: 0;
+    }
 
 
 

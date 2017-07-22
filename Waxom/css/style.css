@@ -33,7 +33,7 @@ html, body{
 }
 
 .wrapper {
-	max-width:1230px;
+	width:80%;
 	height: auto;
 	margin:0 auto;
 	padding:0 15px 0 15px;
@@ -79,6 +79,13 @@ h3{
 	background-color:#a38a73;
 }
 
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
 
 
 /*******************HEADER*******************/
@@ -119,7 +126,7 @@ h3{
 .menu{
 	float: left;
 	line-height: 56px;
-	margin-left:180px;
+	margin-left:115px;
 }
 
 .menu ul li {
@@ -164,7 +171,7 @@ h3{
 
 .slider{
 	height:595px;
-	width: 1200px;
+	width: 80%;
 	text-align:center;
 	margin:200px auto 0 auto;
 	position:relative;
@@ -270,7 +277,7 @@ h3{
 /*****TEXT SLIDER******/
 .text-slider{
 	height:255px;
-	width: 605px;
+	width: 100%;
 	margin:0 auto;
 	color:white;
 }
@@ -304,7 +311,6 @@ h3{
 
  			/******CONTENT*****/
  .content{
- 	height: 305px;
  	background-color:white;
  	padding-top:70px;
  }
@@ -313,7 +319,7 @@ h3{
  .dev,
  .cust,
  .mark {
- 	width:267px;
+ 	width:22%;
  	height: auto;
  	text-align:center;
  	float:left;
@@ -410,19 +416,19 @@ h3{
  .content-button{
  	background:url(../img/bg-content-btn.png)no-repeat ;
 	background-size:cover;
-	height: 150px;
+	padding:25px 0;
+}
 
- }
+.left_text{
+	float:left;
+}
 
- .content-button .wrapper{
- 	height: 150px;
- 	position: relative;
- }
+
 
 .content-button h3{
 	color:white;
 	display: inline-block;
-	margin:50px 0px 9px 0px;
+	
 
 }
 
@@ -437,10 +443,8 @@ h3 .gold{
 }
 
 .content-button .button{
-	position:absolute;
-	top:0;
-	right:2%;
-	margin-top:50px;
+	float:right;
+	margin:0;
 	padding:19px 27px 19px 27px;	
 }
 
@@ -460,7 +464,7 @@ h3 .gold{
 
 .top-content p{
 	display:block;
-	width:760px;
+	width:80%;
 	margin:0 auto;
 	margin-bottom:35px;
 	text-align: center;
@@ -501,11 +505,7 @@ h3 .gold{
 }
 
 
-.top-img{
-	width: 100%;
-	height:355px;
-	margin-bottom: 2%;
-}
+
 
 .left, 
 .center,
@@ -527,7 +527,7 @@ h3 .gold{
 .left,
 .center,
 .right{
-	height: 100%;
+	height: 355px;
 	width: 30.5%;
 	float:left;
 	position:relative;
@@ -559,9 +559,6 @@ h3 .gold{
 	display: inherit;
 }
 
-.right{
-	margin:0;
-}
 
 .text{
 	height: 100px;
@@ -655,7 +652,7 @@ h3 .gold{
 }
 
 .content-video{
-	width:550px;
+	width:100%;
 	margin:0 auto;
 	padding-top:210px;
 }
@@ -720,8 +717,7 @@ h3 .gold{
 	background-image:url(../img/iPhone-bg.png) ;
 	background-position: top  center;
 	background-size:cover;
-	height: 490px;
-	padding-top:210px;
+	padding: 100px 0;
 }
 
 .wrapper-mobile{
