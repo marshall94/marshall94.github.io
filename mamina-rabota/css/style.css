@@ -91,7 +91,8 @@ header {
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center center;
-  position: relative; }
+  position: relative;
+  min-height: 100vh; }
   header::after {
     content: " ";
     position: absolute;
