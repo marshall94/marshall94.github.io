@@ -256,7 +256,7 @@ nav.primary-menu {
 /*----PORTFOLIO----*/
 .portfolio {
   background: #1B1B1B;
-  background: -webkit-gradient(linear, left top, left bottom, from(left), color-stop(#9933CC), color-stop(#333399), to(#339933));
+  background: -webkit-gradient(linear, left top, right top, from(#9933CC), color-stop(#333399), to(#339933));
   background: -webkit-linear-gradient(left, #9933CC, #333399, #339933);
   background: -o-linear-gradient(left, #9933CC, #333399, #339933);
   background: linear-gradient(left, #9933CC, #333399, #339933);
