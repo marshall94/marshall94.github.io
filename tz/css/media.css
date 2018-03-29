@@ -1,0 +1,237 @@
+/*==========MEDIA===========*/
+@media screen and (max-width: 1800px) {
+  .top-panel {
+    padding-left: 120px; }
+  .search {
+    width: 750px;
+    margin-right: 345px; } }
+
+@media screen and (max-width: 1600px) {
+  .top-panel {
+    padding-left: 85px; }
+  .top-flex {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .link-logo {
+    margin-right: 0; }
+  .search {
+    width: 650px;
+    margin-right: 0; } }
+
+@media screen and (max-width: 1200px) {
+  .search {
+    width: 475px; }
+  .accordion {
+    margin-left: 0; }
+  .accordion-item {
+    padding: 40px 20px 0 30px; }
+  .accordion-txt {
+    padding-bottom: 50px; }
+    .accordion-txt .txt br {
+      display: none; }
+  .left {
+    width: 74%; }
+  .right {
+    width: 25.5%; }
+  .course-next {
+    right: 150px;
+    top: initial;
+    bottom: -80px;
+    -webkit-transform: initial;
+        -ms-transform: initial;
+            transform: initial; }
+  .course-prev {
+    left: 150px;
+    top: initial;
+    bottom: -80px;
+    -webkit-transform: initial;
+        -ms-transform: initial;
+            transform: initial; } }
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 1000px; }
+  .top-panel {
+    padding-left: 35px; }
+  .content {
+    margin-top: -900px; }
+  .content-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .left {
+    width: 90%; }
+    .left .ttl-block {
+      margin-left: 0;
+      margin-bottom: 10px; }
+    .left .additions-ttl {
+      margin-left: 0;
+      margin-bottom: 20px; }
+  .right {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1;
+    width: 50%;
+    margin-bottom: 75px; }
+    .right .ttl-block {
+      margin-left: 0;
+      margin-bottom: 10px; }
+    .right .additions-ttl {
+      margin-left: 0;
+      margin-bottom: 20px; } }
+
+@media screen and (max-width: 768px) {
+  .ttl-block {
+    font-size: 35px; }
+  .link-logo {
+    display: none; }
+  .link_logo {
+    display: block; }
+  .search {
+    width: 345px; }
+  .num {
+    display: none; }
+  .bell .fa {
+    color: #fff; }
+  .photo-person {
+    width: 35px;
+    height: 35px; }
+  .right {
+    width: 80%; }
+  .left {
+    width: 100%; }
+  .accordion-btn {
+    display: none; }
+  .accordion-item {
+    padding: 50px 20px 0 20px; }
+  .accordion-txt {
+    padding-left: 0; }
+  .accordion-top {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    text-align: center; }
+    .accordion-top .fa {
+      margin-right: 0;
+      margin-bottom: 20px; }
+  .course .ttl-block {
+    padding-left: 0; }
+  .name-school br {
+    display: none; }
+  .accordion-ttl {
+    font-size: 22px; } }
+
+@media screen and (max-width: 667px) {
+  .ttl-block {
+    font-size: 25px; }
+  .search {
+    width: 200px; }
+  .right {
+    width: 100%; }
+    .right .ttl-block {
+      display: none; }
+    .right .additions-ttl {
+      display: none; }
+  .left .additions-ttl {
+    display: none; }
+  .left .ttl-block {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 60px; }
+    .left .ttl-block .decor {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      margin-right: 0;
+      margin-bottom: 10px; }
+  .course .ttl-block {
+    margin-bottom: 20px; }
+  .search-btn {
+    right: 10px; }
+  .option-btn {
+    left: 10px; }
+  .option-btn .fa {
+    margin-right: 0px; }
+  .search-item {
+    padding: 9px 30px 7px 35px; }
+  .top-panel {
+    padding-left: 0px; }
+  .photo,
+  .name-school {
+    margin-bottom: 10px; }
+  .course-item .txt {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 480px) {
+  .ttl-block {
+    font-size: 26px; }
+  .course-next {
+    right: 60px; }
+  .course-prev {
+    left: 60px; }
+  .content {
+    margin-bottom: 20px; }
+  .course {
+    padding-bottom: 60px; }
+  .course-prev {
+    width: 40px;
+    height: 40px;
+    bottom: -45px;
+    padding: 0; }
+    .course-prev img {
+      height: 15px; }
+  .course-next {
+    width: 40px;
+    height: 40px;
+    bottom: -45px;
+    padding: 0; }
+    .course-next img {
+      height: 15px; } }
+
+@media screen and (max-width: 414px) {
+  .ttl-block {
+    font-size: 20px; }
+  .bell {
+    margin-right: 5px; }
+  .photo-person {
+    width: 30px;
+    height: 30px; }
+  .top-flex {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .search {
+    width: 170px;
+    margin-right: 15px; } }
