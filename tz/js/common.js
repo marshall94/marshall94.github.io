@@ -13,8 +13,8 @@ $('.accordion-top').click(function(){
 
 $('.courseSlider').slick({
   slidesToShow:4,
-  prevArrow: '<button id="prev" type="button" class="course-prev"><img src="../img/arrow.png" alt=""></button>',
-  nextArrow: '<button id="next" type="button" class="course-next"><img src="../img/arrow.png" alt=""></button>',
+  prevArrow: '<button id="prev" type="button" class="course-prev"><img src="img/arrow.png" alt=""></button>',
+  nextArrow: '<button id="next" type="button" class="course-next"><img src="img/arrow.png" alt=""></button>',
   responsive: [
     {
       breakpoint:992,
