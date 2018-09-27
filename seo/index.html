@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Честное SEO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!--Bootstrap-4-grid-->
+		<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+		<!--FontAwesome-->
+		<link rel="stylesheet" href="libs/FontAwesome/css/font-awesome.min.css">
+		<!--Slick-->
+		<link rel="stylesheet" href="libs/slick/slick.css">
+		<!--Css-->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class="top-panel">
+					<div class="btn-menu">
+						<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  xml:space="preserve" class="menu-img">
+						<path d="M491.318,235.318H20.682C9.26,235.318,0,244.577,0,256s9.26,20.682,20.682,20.682h470.636
+						c11.423,0,20.682-9.259,20.682-20.682C512,244.578,502.741,235.318,491.318,235.318z"/>
+						<path d="M491.318,78.439H20.682C9.26,78.439,0,87.699,0,99.121c0,11.422,9.26,20.682,20.682,20.682h470.636
+						c11.423,0,20.682-9.26,20.682-20.682C512,87.699,502.741,78.439,491.318,78.439z"/>
+						<path d="M491.318,392.197H20.682C9.26,392.197,0,401.456,0,412.879s9.26,20.682,20.682,20.682h470.636
+						c11.423,0,20.682-9.259,20.682-20.682S502.741,392.197,491.318,392.197z"/>
+						</svg>
+					</div>
+					<div class="logo">
+						<a href="index.html" class="logo-link"><img src="img/logo.png" alt=""></a>
+					</div>
+					<div class="nav">
+						<ul class="nav-list">
+							<li class="nav-item"><a href="#" class="nav-link">кейсы</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">цены</a></li>
+							<li class="nav-item"><a href="#" class="nav-link">контакты</a></li>
+						</ul>
+					</div>
+					<div class="btn-phone">
+							<a href="tel:+7(495)777-4-222">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001"  xml:space="preserve" class="phone-img">
+								<path d="M421.216,195.504c-5.092-26.101-17.723-49.836-36.526-68.64c-18.804-18.803-42.54-31.434-68.641-36.527
+								c-11.21-2.189-22.073,5.128-24.261,16.339c-2.187,11.212,5.128,22.073,16.339,24.26c36.847,7.188,65.3,35.642,72.489,72.489
+								c1.927,9.874,10.581,16.726,20.278,16.726c1.313,0,2.645-0.125,3.984-0.387C416.088,217.577,423.403,206.715,421.216,195.504z"/>
+								<path d="M511.422,196.929c-5.629-50.096-28.373-97.304-64.042-132.927C411.712,28.378,364.475,5.694,314.371,0.128
+								c-11.355-1.261-21.578,6.92-22.839,18.272c-1.261,11.353,6.919,21.578,18.272,22.84c84.961,9.438,150.966,75.36,160.512,160.31
+								c1.188,10.566,10.139,18.374,20.527,18.374c0.771,0,1.552-0.043,2.336-0.131C504.53,218.516,512.698,208.281,511.422,196.929z"/>
+								<path d="M432.59,312.566c-0.062-0.008-0.124-0.017-0.186-0.025c-20.013-2.639-39.751-7.557-58.619-14.596
+								c-23.91-8.99-51.103-3.191-69.27,14.772c-0.028,0.028-0.056,0.055-0.083,0.083l-17.148,17.148
+								c-42.633-26.924-78.756-63.047-105.679-105.679l17.149-17.149c0.027-0.028,0.054-0.055,0.082-0.083
+								c17.964-18.166,23.762-45.356,14.79-69.223c-7.057-18.914-11.974-38.653-14.614-58.666c-0.007-0.063-0.017-0.127-0.026-0.19
+								c-4.591-32.478-32.782-56.734-65.548-56.467H66.053c-1.943,0.002-3.912,0.091-5.853,0.267
+								C24.143,26.016-2.541,58.001,0.718,94.058c0.01,0.108,0.02,0.215,0.032,0.323c7.684,72.354,32.649,142.88,72.197,203.955
+								c35.892,56.461,84.701,105.269,141.162,141.164c60.792,39.406,130.99,64.369,203.013,72.196c0.127,0.015,0.254,0.027,0.38,0.038
+				      			c1.961,0.176,3.949,0.266,5.921,0.266c0.083,0,0.165,0,0.247,0.001c36.204-0.148,65.538-29.722,65.391-65.841v-67.233
+								C489.746,345.714,465.515,317.211,432.59,312.566z M447.698,378.695v67.548c0.055,13.396-10.8,24.338-24.19,24.393
+								c-0.715-0.004-1.425-0.027-2.135-0.086c-65.578-7.161-129.488-29.914-184.837-65.808c-0.053-0.035-0.107-0.069-0.161-0.103
+								c-51.429-32.68-95.885-77.137-128.565-128.565c-0.032-0.051-0.064-0.101-0.097-0.153C71.683,220.306,48.928,156.086,41.902,90.193
+								C40.779,76.91,50.63,65.155,63.923,63.954c0.717-0.064,1.443-0.098,2.145-0.098h67.463c0.146-0.001,0.294-0.003,0.443-0.002								c12.021,0,22.322,8.905,24.044,20.819c3.05,23.063,8.721,45.806,16.871,67.649c3.319,8.832,1.189,18.869-5.427,25.591
+								l-28.517,28.517c-6.583,6.582-7.956,16.753-3.354,24.847c33.837,59.508,83.177,108.847,142.685,142.685
+								c8.094,4.6,18.264,3.23,24.848-3.355l28.512-28.512c6.72-6.621,16.765-8.752,25.642-5.415
+								c21.799,8.134,44.547,13.805,67.61,16.855c12.18,1.757,21.122,12.339,20.816,24.647
+								C447.7,378.353,447.698,378.524,447.698,378.695z"/>
+								</svg>
+							</a>
+					  </div>
+					<div class="callback">
+						<a href="tel:+7(495)777-4-222" class="phone-link">получить консультацию</a>
+						<span class="phone-number text-gradient">+7(495)777-4-222</span>
+					</div>
+				</div>
+				<div class="header-content">
+					<h1 class="ttl-site text-gradient" style="z-index: 2;">Честное SEO</h1>
+					<p class="slogan-site" style="z-index: 2;">Продвижение сайта для тех, кто устал<br>
+						платить непонятно за что.
+					</p>
+					<button class="btn-big" style="z-index: 2;">Заказать услугу</button>
+					<img src="img/header-decor1.png" alt="" class="decor1">
+				</div>
+			</div>	
+		</header>
+		<section class="customers">
+			<div class="container">
+				<div class="customers-box">
+					<div class="customers-item">
+						<h2 class="ttl-block">Наши <br>клиенты</h2>
+					</div>
+					<div class="customers-item">
+						<img src="img/customers1.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<img src="img/customers2.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<img src="img/customers3.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<img src="img/customers1.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<img src="img/customers4.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<img src="img/customers3.png" alt="" class="customers-img">
+					</div>
+					<div class="customers-item">
+						<div class="yet-box">
+							<p class="help-us">
+								К нам обращаются<br>
+								многие и остаются <br>
+								на долго!
+							</p>
+							<a href="#" class="yet text-gradient">загрузить еще</a>
+						</div>
+					</div>
+				</div>
+				<div class="customers-mobile">
+					<div class="text-center">
+						<h2 class="ttl-block">Наши клиенты</h2>
+					</div>
+					<div class="customersSlider">
+						<div class="customers_box">
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers2.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers3.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+						</div>
+						<div class="customers_box">
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers2.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers3.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+						</div>
+						<div class="customers_box">
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers2.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers3.png" alt="" class="customers-img">
+							</div>
+							<div class="customers-item">
+								<img src="img/customers1.png" alt="" class="customers-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="what-seo">
+			<div class="container">
+				<div class="what-flex">
+					<div class="left">
+						<img src="img/what-img.png" alt="" class="what-img">
+					</div>
+					<div class="right">
+						<h2 class="ttl-block">Зачем вам SEO <br>
+							продвижение
+						</h2>
+						<p class="what-txt">Сайтов в интернете с каждым днем все больше, а мест в первой 10-ке как было 10, 
+							так и остается. И за нахождения сайта в этой первой десятке идет ожесточенная борьба. 
+							Но оно того стоит! В большинстве случаем 
+							– быть №1 в Яндексе и Google – это быть №1 
+							в бизнесе!
+						</p>
+
+						<p class="what-txt">
+							Помните слова Билла Гейтса «Если вашего бизнеса нет в Интернете - значит вас нет в бизнесе.»
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="description-seo">
+			<div class="container">
+				<div class="description-flex">
+					<div class="description-item desc-box1">
+						<div class="desc-box">
+							<img src="img/description-img1.png" alt="" class="seo-img">
+							<div class="ttl">
+								<span class="p_m text-gradient">Плюс</span>
+								<span class="ttl-description">Стоимость привлечения клиента</span>
+							</div>
+							<p class="description-txt">
+								В SEO она ниже чем где-либо. Намного ниже. Если быть точным, то клиент<br>
+								из SEO может быть до 6 раз дешевле чем клиент из контекстной рекламы<br> 
+								и до 4 раз дешевле чем клиент из Социальных сетей. Именно поэтому<br>
+								компании вкладывают огромные средства в этот канал.
+							</p>
+						</div>
+						<img src="img/desc-decor1.png" alt="" class="desc-decor1">
+					</div>
+					<div class="description-item desc-box2">
+						<div class="desc-box">
+							<div class="ttl">
+								<span class="p_m text-gradient">Минус</span>
+								<span class="ttl-description">Сроки</span>
+							</div>
+							<p class="description-txt">
+								Нужно минимум 4 месяца, чтобы Ваш сайт поднялся в ТОП, и начал <br>
+								окупать вложенные в продвижения деньги (если кто-то обещает вывести <br>
+								ваш сайт в ТОП за 1-2-3 месяца – это просто обман.Чтобы Вы выбрали <br>
+								эту недобросовестную компанию, а потом Вам скажут – извините, <br> 
+								не получилось).
+							</p>
+						</div>
+						<img src="img/desc-decor2.png" alt="" class="desc-decor2">
+					</div>
+					<div class="description-item desc-box3">
+						<div class="desc-box">
+							<h2 class="ttl-block text-gradient">К SEO стоит относиться как к инвестициям</h2>
+							<p class="description-txt">
+								Со сроками возврата инвестиций от 6 месяцев. С таким подходом <br>
+								Вы приумножите Ваши вложения, и Ваш сайт будет генерировать<br>
+								для Вас стабильный поток клиентов!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="top10">
+			<div class="container">
+				<div class="top10-flex">
+					<h2 class="ttl-block">Чтобы Ваш сайт был <br>
+						в ТОП-10, нужно:
+					</h2>
+					<ul class="top-list">
+						<li class="top-item">Чтобы был удобен в использовании</li>
+						<li class="top-item">
+							Чтобы он соответствовал алгоритмам <br>
+							ранжирования сайтов от Google и Яндекс
+						</li>
+						<li class="top-item">
+							Чтобы он решал задачи пользователя <br>
+							(помогал пользователю выбрать именно Вас среди <br>
+							сотен конкурентов).
+						</li>
+					</ul>
+					<span class="top-slogan text-gradient">
+						Именно это мы и можем сделать <br>
+						с Вашим сайтом!
+					</span>
+					<img src="img/top-decor1.png" alt="" class="decor1">
+					<img src="img/top-decor2.png" alt="" class="decor2">
+				</div>
+			</div>
+		</section>
+		<section class="advantages">
+			<div class="container">
+				<div class="text-center"><h2 class="ttl-block">Как мы добиваемся результата  </h2></div>
+				<div class="advantages-flex">
+					<div class="advantages-item advantages-box1">
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box1.png" alt="" class="decor1">
+							<img src="img/parallax/box1.2.png" alt="" class="decor2">
+							<img src="img/parallax/box1.3.png" alt="" class="decor3">
+						</div>
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Изучение вашей ниши</h3>
+							<p class="advantages-txt">
+								Не зная нишу – невозможно эффективно<br>
+								продвигать сайт. Тут важно помнить, что «люди <br> 
+								покупают не дрель, а дырки в стене», поэтому,<br>
+								чтобы успешно продвинуть сайт в ТОП важно<br>
+								знать нишу, знать, что именно ищет клиент,<br>
+								чтобы решить свою проблему. Над анализом<br>
+								ниши работает группа из профессиональных <br>
+								маркетологов и аналитиков.
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+					</div>
+					<div class="advantages-item advantages-box2">
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Детальный анализ конкурентов</h3>
+							<p class="advantages-txt">
+								Тут все просто. Ну или почти все просто. <br>
+								Чтобы Ваш сайт вошел в ТОП-10, из этого <br>
+								ТОП-10 должен уйти один из Ваших<br>
+								конкурентов. Именно поэтому, по <br>
+								каждому запросу мы анализируем ВСЕХ <br>
+								конкурентов из ТОП-10, находим их <br>
+								сильные и слабые места и используем их<br>
+								на благо Вашего сайта! Шаг за шагом<br>
+								поднимая Ваш сайт 
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box2.png" alt="" class="decor1">
+							<img src="img/parallax/box2.2.png" alt="" class="decor2">
+							<img src="img/parallax/box2.3.png" alt="" class="decor3">
+						</div>
+					</div>
+					<div class="advantages-item advantages-box3">
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box3.png" alt="" class="decor1">
+							<img src="img/parallax/box3.2.png" alt="" class="decor2">
+							<img src="img/parallax/box3.3.png" alt="" class="decor3">
+						</div>
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Составление глубокого семантического ядра</h3>
+							<p class="advantages-txt">
+								Семантическое ядро – это основа поискового<br>
+								продвижения сайтов. Это как карта для<br> 
+								путешественника – без карты не проложить<br>
+								маршрут. Так и без семантического ядра <br>
+								не продвинуть сайт в ТОП. Мы составляем<br> 
+								широкое семантическое ядро, согласовываем <br>
+								его с Вами, и после этого запускаем 
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+					</div>
+					<div class="advantages-item advantages-box4">
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Копирайтинг от профессионалов</h3>
+							<p class="advantages-txt">
+								И Яндекс и Google в один голос заявляют – для<br> 
+								сайта главное контент! А контент это в первую <br>
+								очередь тексты. Качественные, продающие <br>
+								тексты, которые подталкивают пользователя<br> 
+								к совершению нужного действия, а поисковые<br>
+								роботы – к выводу Вашего сайта в лидирующие<br> 
+								позиции. Копирайтингом у нас занимаются<br> 
+								профессиональные филологи и 
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box4.png" alt="" class="decor1">
+							<img src="img/parallax/box4.2.png" alt="" class="decor2">
+							<img src="img/parallax/box4.3.png" alt="" class="decor3">
+						</div>
+					</div>
+					<div class="advantages-item advantages-box5">
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box5.png" alt="" class="decor1">
+							<img src="img/parallax/box5.2.png" alt="" class="decor2">
+							<img src="img/parallax/box5.3.png" alt="" class="decor3">
+						</div>
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Линкбилдинг на трастовых ресурсах</h3>
+							<p class="advantages-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли <br>
+								и будут играть важную роль в поисковой выдаче. Плохие <br>
+								(некачественные) ссылки – выбивают сайт из ТОПа, <br>
+								а хорошие (качественные, естественные, вечные) ссылки<br>
+								– помогают сайту подняться в ТОП и удерживать свои<br>
+								позиции. Над естественной ссылочной массой сайтов <br>
+								у нас работает целый отдел. 
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+					</div>
+					<div class="advantages-item advantages-box6">
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Сквозная аналитика</h3>
+							<p class="advantages-txt">
+								Чтобы Ваш сайт (как и бизнес в целом) <br>
+								был максимально рентабельным – важно<br> 
+								контролировать каждый рубль, затраченный <br>
+								на рекламу. Для этого не обойтись без сквозной <br>
+								аналитики – системы, которая с точностью<br> 
+								до рубля позволяет контролировать расходы <br>
+								на рекламу, и оптимизировать бюджет.
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box6.png" alt="" class="decor1">
+							<img src="img/parallax/box6.2.png" alt="" class="decor2">
+							<img src="img/parallax/box6.3.png" alt="" class="decor3">
+						</div>
+					</div>
+					<div class="advantages-item advantages-box7">
+						<div class="advantages-img">
+							<img src="img/parallax/delta.png" alt="" class="delta">
+							<img src="img/parallax/box7.png" alt="" class="decor1">
+							<img src="img/parallax/box7.2.png" alt="" class="decor2">
+							<img src="img/parallax/box7.3.png" alt="" class="decor3">
+						</div>
+						<div class="advantages-info">
+							<h3 class="advantages-ttl">Крауд маркетинг</h3>
+							<p class="advantages-txt">
+								Технология партизанского маркетинга, когда<br>
+								на тематических сайтах или форумах лидеры<br>
+								мнений рекомендуют Ваш сайт целевой<br> 
+								аудитории. На выходе мы имеем качественные<br> 
+								вечные ссылки, а также потенциально <br> 
+								заинтересованных в Вашей продукции или<br> 
+								услуге потребителя. На Западе эта технология <br>
+								используется активно, в РФ пока не очень. <br>
+								Хороший канал, чтобы 
+							</p>
+							<button class="detalis">Узнать подробности</button>
+						</div>
+					</div>
+				</div>
+				<div class="advantagesSlider">
+					<div class="advantages_box">
+						<div class="advantages-item">
+							<div class="advantages-img">
+								<img src="img/320/advantages1.png" alt="">
+							</div>
+							<div class="advantages-info">
+								<h3 class="advantages-ttl">Изучение вашей ниши</h3>
+								<p class="advantages-txt">
+									Не зная нишу – невозможно эффективно
+									продвигать сайт. Тут важно помнить, что «люди  
+									покупают не дрель, а дырки в стене», поэтому,
+									чтобы успешно продвинуть сайт в ТОП важно
+									знать нишу, знать, что именно ищет клиент,
+									чтобы решить свою проблему. Над анализом
+									ниши работает группа из профессиональных
+									маркетологов и аналитиков.
+								</p>
+								<button class="detalis">Узнать подробности</button>
+							</div>
+						</div>
+					</div>
+					<div class="advantages_box">
+						<div class="advantages-item">
+							<div class="advantages-img">
+								<img src="img/320/advantages1.png" alt="">
+							</div>
+							<div class="advantages-info">
+								<h3 class="advantages-ttl">Изучение вашей ниши</h3>
+								<p class="advantages-txt">
+									Не зная нишу – невозможно эффективно
+									продвигать сайт. Тут важно помнить, что «люди  
+									покупают не дрель, а дырки в стене», поэтому,
+									чтобы успешно продвинуть сайт в ТОП важно
+									знать нишу, знать, что именно ищет клиент,
+									чтобы решить свою проблему. Над анализом
+									ниши работает группа из профессиональных
+									маркетологов и аналитиков.
+								</p>
+								<button class="detalis">Узнать подробности</button>
+							</div>
+						</div>
+					</div>
+					<div class="advantages_box">
+						<div class="advantages-item">
+							<div class="advantages-img">
+								<img src="img/320/advantages1.png" alt="">
+							</div>
+							<div class="advantages-info">
+								<h3 class="advantages-ttl">Изучение вашей ниши</h3>
+								<p class="advantages-txt">
+									Не зная нишу – невозможно эффективно
+									продвигать сайт. Тут важно помнить, что «люди  
+									покупают не дрель, а дырки в стене», поэтому,
+									чтобы успешно продвинуть сайт в ТОП важно
+									знать нишу, знать, что именно ищет клиент,
+									чтобы решить свою проблему. Над анализом
+									ниши работает группа из профессиональных
+									маркетологов и аналитиков.
+								</p>
+								<button class="detalis">Узнать подробности</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<h2 class="advantages-help text-gradient">есть проблемы? мы поможем!</h2>
+				</div>
+			</div>
+		</section>
+		<section class="banner-start">
+			<div class="container">
+				<div class="start-flex">
+					<div class="start-box">
+						<p class="ttl-seo">SEO продвижение сайта</p>
+						<h2 class="ttl-start text-gradient">Запустить</h2>
+						<button class="btn-big">узнать подробности</button>
+					</div>
+				</div>
+			</div>
+			<img src="img/rocket.png" alt="" class="rocket">
+		</section>
+		<section class="best-company">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">
+						Почему мы лучшие<br>
+						в своем деле
+					</h2>
+				</div>
+				<div class="best-flex">
+					<div class="best-item">
+						<div class="best-img"><img src="img/company1.png" alt=""></div>
+						<div class="best-info">
+							<h3 class="best-ttl">Говорим с клиентом <br>
+								на одном языке
+							</h3>
+							<p class="best-txt">
+								Некоторые компании, стремясь <br> 
+								показать свою «экспертность» говорят<br>
+								с клиентом на языке терминов (часто<br>
+								несуществующих). Но мы считаем, что <br>
+								эксперт – это тот, кто говорит просто<br> 
+								о сложном. Поэтому, с нами общаться<br>
+								Вам будет просто и интересно.
+							</p>
+						</div>
+					</div>
+					<div class="best-item">
+						<div class="best-img"><img src="img/company2.png" alt=""></div>
+						<div class="best-info">
+							<h3 class="best-ttl">Понимаем, что нужно<br> клиенту</h3>
+							<p class="best-txt">
+								Мы понимаем, что главное для Вас <br>
+								– это сколько денег будет в Вашей<br>
+								кассе, а не количество лидов, траффик <br>
+								или процент отказов. Именно вокруг <br>
+								этого мы и выстраиваем свою работу. <br>
+								Ведь от Вашей прибыли – зависит наша прибыль.
+							</p>
+						</div>
+					</div>
+					<div class="best-item">
+						<div class="best-img"><img src="img/company3.png" alt=""></div>
+						<div class="best-info">
+							<h3 class="best-ttl">Относимся к вложению<br>
+							в SEO как к инвестициям
+							</h3>
+							<p class="best-txt">
+								Вы – человек бизнеса. А для бизнеса<br>
+								главное – это возврат и приумножение<br>
+								инвестиций. Именно поэтому <br>
+								мы смотрим на разработку сайтов <br>
+								и их продвижение – как на инвестиции. <br>
+								И наша задача – чтобы Вы окупили <br> 
+								свои инвестиции, получили прибыль <br>
+								и работали с нами долгие годы. Ваш <br>
+								успех – это наш успех!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="case">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">Наши кейсы</h2>
+				</div>
+				<div class="caseSlider">
+					<div class="case-item">
+						<p class="case-name">Магазин игрушек</p>
+					</div>
+					<div class="case-item">
+						<p class="case-name">Магазин игрушек</p>
+					</div>
+					<div class="case-item">
+						<p class="case-name">Магазин игрушек</p>
+					</div>
+					<div class="case-item">
+						<p class="case-name">Магазин игрушек</p>
+					</div>
+					<div class="case-item">
+						<p class="case-name">Магазин игрушек</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="result">
+			<div class="container">
+				<div class="result-flex">
+					<img src="img/result-img.png" alt="" class="decor1">
+					<div class="result-info">
+						<span class="result-ttl">результаты:</span>
+						<ul class="result-list">
+							<li class="result-item">
+								<span class="result-number text-gradient">+15</span>
+								<span class="result-txt">За 5 месяцев значение средней позиции в Яндексе и <br> Гугле </span>
+							</li>
+							<li class="result-item">
+								<span class="result-number text-gradient">75%</span>
+								<span class="result-txt">Продвигаемых запросов выведены в топ-10 поисковых <br>систем</span>
+							</li>
+							<li class="result-item">
+								<span class="result-number text-gradient">283</span>
+								<span class="result-txt">Количество позиций в топ-10 выросло с 77 до 283</span>
+							</li>
+						</ul>
+						<span class="result-status">СТАТУС: работа продолжается</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="price">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">Наши цены</h2>
+				</div>
+				<div class="price-flex">
+					<div class="description-price">
+						<p class="txt">
+							Самое сложно в SEO продвижении для <br>
+							клиента – это понять – сколько реально стоит<br>
+ 							продвижение сайта.
+						</p>
+						<p class="txt">
+							Кто-то обещает вывести сайт в топ за 5000 <br>
+							рублей, а кто-то за 500 тысяч. Но куда именно <br>
+							идут деньги в 99,9% случаем клиент не знает,<br> 
+						    не понимает, и никто Вам этого не расскажет.
+						</p>
+						<p class="txt">
+							Никто кроме нас! <br>
+							У нас все просто – вы покупаете наше <br>
+						    время – мы делаем качественно свою работу, <br>
+ 							чтобы вы продолжали покупать наше время.
+						</p>
+					</div>
+					<div class="price-item">
+						<h2 class="ttl-packet text-gradient">Продвижение <br>
+								сайтов
+						</h2>
+						<div class="price-packet">
+							<span class="p_txt">от</span>
+							<span class="p_sum">49 000</span>
+							<span class="p_txt">руб.</span>
+						</div>
+						<button class="btn-big">Узнать подробности</button>
+					</div>
+					<div class="price-item">
+						<h2 class="ttl-packet text-gradient">Продвижение <br>
+								интернет магазинов
+						</h2>
+						<div class="price-packet">
+							<span class="p_txt">от</span>
+							<span class="p_sum">99 000</span>
+							<span class="p_txt">руб.</span>
+						</div>
+						<button class="btn-big">Узнать подробности</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="information">
+			<div class="container">
+				<div class="information-flex">
+					<div class="information-item">
+						<div class="information-img"><img src="img/info1.png" alt=""></div>
+						<p class="information-txt">
+							По нашему опыту, чтобы сайт успешно работал
+							и поднимался в ТОП-10, ему нужно уделять 
+							от 40 часов в месяц. Если у Вас нтернет-магазин,
+ 							с количеством товара выше 500 единиц, 
+							то от 70 часов в месяц.
+						</p>
+					</div>
+					<div class="information-item">
+						<div class="information-img"><img src="img/info2.png" alt=""></div>
+						<p class="information-txt">
+							Час работы специалиста в среднем стоит 1200 рублей (это среднее значение, например,
+							час контент-менеджера стоит 800 рублей, а час профессионального аналитика – 2000).
+						</p>
+					</div>
+					<div class="information-item">
+						<div class="information-img"><img src="img/info3.png" alt=""></div>
+						<p class="information-txt">
+							Когда клиент просит: “Сделайте мне не за 
+							49 000, а за 30 000” и компания соглашается, 
+							она просто уделяет меньше времени вашему проекту. А если проект высококонкурентный,
+ 							тратя на проект по 30 000 в месяц – вы просто выкидываете эти деньги в черную дыру. 
+						</p>
+					</div>
+				</div>
+				<div class="option">
+					<div class="text-center">
+						<h2 class="ttl-option text-gradient">Выбор за вами...</h2>	
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">FAQ</h2>
+				</div>
+				<div class="reviews-box">
+					<div class="reviews-item">
+						<div class="question">
+							<p class="question-txt">Как быстро вы добьетесь результата?</p>
+							<div class="btn-question"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+						<div class="answer">
+							<p class="answer-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли и будут играть важную роль в поисковой выдаче. Плохие (некачественные) ссылки – выбивают сайт из ТОПа, а хорошие (качественные, естественные, вечные) ссылки – помогают сайту подняться в ТОП и удерживать свои позиции. 
+								Над естественной ссылочной массой сайтов у нас работает целый отдел. 
+							</p>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="question">
+							<p class="question-txt">Как быстро вы добьетесь результата?</p>
+							<div class="btn-question"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+						<div class="answer">
+							<p class="answer-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли и будут играть важную роль в поисковой выдаче. Плохие (некачественные) ссылки – выбивают сайт из ТОПа, а хорошие (качественные, естественные, вечные) ссылки – помогают сайту подняться в ТОП и удерживать свои позиции. 
+								Над естественной ссылочной массой сайтов у нас работает целый отдел. 
+							</p>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="question">
+							<p class="question-txt">Как быстро вы добьетесь результата?</p>
+							<div class="btn-question"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+						<div class="answer">
+							<p class="answer-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли и будут играть важную роль в поисковой выдаче. Плохие (некачественные) ссылки – выбивают сайт из ТОПа, а хорошие (качественные, естественные, вечные) ссылки – помогают сайту подняться в ТОП и удерживать свои позиции. 
+								Над естественной ссылочной массой сайтов у нас работает целый отдел. 
+							</p>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="question">
+							<p class="question-txt">Как быстро вы добьетесь результата?</p>
+							<div class="btn-question"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+						<div class="answer">
+							<p class="answer-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли и будут играть важную роль в поисковой выдаче. Плохие (некачественные) ссылки – выбивают сайт из ТОПа, а хорошие (качественные, естественные, вечные) ссылки – помогают сайту подняться в ТОП и удерживать свои позиции. 
+								Над естественной ссылочной массой сайтов у нас работает целый отдел. 
+							</p>
+						</div>
+					</div>
+					<div class="reviews-item">
+						<div class="question">
+							<p class="question-txt">Как быстро вы добьетесь результата?</p>
+							<div class="btn-question"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+						</div>
+						<div class="answer">
+							<p class="answer-txt">
+								Что бы публично не заявлял Яндекс, но ссылки играли и будут играть важную роль в поисковой выдаче. Плохие (некачественные) ссылки – выбивают сайт из ТОПа, а хорошие (качественные, естественные, вечные) ссылки – помогают сайту подняться в ТОП и удерживать свои позиции. 
+								Над естественной ссылочной массой сайтов у нас работает целый отдел. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<span class="reviews-slogan text-gradient">связавшись с нами, вы получите ответы <br>
+					 интересующие вас вопросы
+				</span>
+			</div>
+		</section>
+		<section class="banner-start2">
+			<div class="container">
+				<div class="start2-flex">
+					<div class="start-box">
+						<div class="ttl-start text-gradient">Стать</div>
+						<span class="fav">Лидером рынка</span>
+						<button class="btn-big">давно пора!</button>
+					</div>
+					<img src="img/start2-decor.png" alt="" class="decor1">
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="container">
+				<div class="text-right">
+					<h2 class="ttl-block">Контакты</h2>
+				</div>
+				<div class="contact-flex">
+					<div class="maps" >
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.215057978041!2d37.70776831603912!3d55.78950349662797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5350cf21d0cfb%3A0x53324e74de1e5c27!2z0JTQtdC70L7QstC-0Lkg0YbQtdC90YLRgCDQk9Cw0LvQsNGC0LXQutGB!5e0!3m2!1sru!2sua!4v1518883831193" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<img src="img/home.png" alt="" class="home">
+					</div>
+					<div class="contact-info">
+						<div class="address">
+							<div class="contact-img"><img src="img/marker.png" alt=""></div>
+							<span class="txt">
+								107023, Россия,  Москва, ул. Суворовская, дом 19, <br>
+								Деловой центр “Галатекс”
+							</span>
+						</div>
+						<div class="phone">
+							<div class="contact-img"><a href="tel:+7 (495) 777-4-222"><img src="img/phone.png" alt=""></a></div>
+							<span class="txt">
+								+7 (495) 777-4-222
+							</span>
+						</div>
+						<div class="mail">
+							<div class="contact-img"><a href="mailto:seo@eightagency.ru"><img src="img/mail.png" alt=""></a></div>
+							<span class="txt">
+								seo@eightagency.ru
+							</span>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="text-center">
+					<span class="copyright">
+						2009-2017 © Eight agency. Все права защищены
+					</span>
+				</div>	
+			</div>
+		</footer>
+		<!--Script-->
+		<script src="libs/jquery-3.2.1.min.js"></script>
+		<script src="libs/slick/slick.min.js"></script>
+		<script src="js/common.js"></script>
+
+	</body>
+
+</html>
