@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!--Bootstrap-4-grid-->
+		<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+		<!--Css-->
+		<link rel="stylesheet" href="libs/slick/slick.css">
+		<link rel="stylesheet" href="assets_back_end/css/style.css">
+		<link rel="stylesheet" href="assets_back_end/css/media.css">
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__top">
+				<div class="container">
+					<div class="header__topFlex">
+						<div class="logo">
+							<a href="index.html" class="logo__link"><img src="assets_back_end/img/logo.png" alt="" class="logo__link_img"></a>
+						</div>
+						<div class="logo_mobile">
+							<a href="index.html" class="logo__link"><img src="assets_back_end/img/logo.png" alt="" class="logo__link_img"></a>
+							<p class="logo_slogan">
+								Мы – компания, которая <br>
+								инвестирует в будущее
+							</p>
+						</div>
+						<nav class="navDesktop">
+							<a href="javascript:void(0)" class="navDesktop__link" onclick="slowScroll('#income')">На чем зарабатывают</a>
+							<a href="javascript:void(0)" class="navDesktop__link" onclick="slowScroll('#fra')">Франшиза</a>
+							<a href="javascript:void(0)" class="navDesktop__link" onclick="slowScroll('#alms')">Благотворительность</a>
+							<a href="javascript:void(0)" class="navDesktop__link" onclick="slowScroll('#contact')">Контакты</a>
+						</nav>
+						<div class="topPhone">
+							<a href="tel:+7 111 222 33 44" class="topPhone__link">
+								<span class="topPhone__link_decor">
+									<img src="assets_back_end/img/phone.png" alt="">
+								</span>
+								+7 111 222 33 44
+							</a>
+						</div>
+						<div class="btnMenu">
+							<p class="btnMenu__txt">меню</p>
+							<img src="assets_back_end/img/btn_menu.png" alt="" class="btnMenu__img">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__content">
+				<div class="container">
+					<div class="header__contentFlex">
+						<p class="header__content_slogan">Мы – компания, которая инвестирует в будущее</p>
+						<h1 class="header__content_ttl">Blockchain fund</h1>
+						<p class="header__content_ttlAdditions">Крупнейший инвестиционный криптовалютный фонд в СНГ   </p>
+						<div class="hr"></div>
+						<p class="header__content_advantages">
+							Начните строить структуру в самом<br>
+							быстрорастущем сетевом проекте<br> 
+							и получайте до <span class="blue">21%</span> от оборота партнеров.
+						</p>
+						<div class="btnBox">
+							<button class="btn" onclick="modalApplication()">Начать сейчас</button>
+							<!-- <div class="timer">
+								<div class="timer__item">
+									<div id="timer_h"></div>
+									<span class="timer__item_name">часов</span>
+								</div>
+								<div class="timer__decor">:</div>
+								<div class="timer__item">
+									<div id="timer_m"></div>
+									<span class="timer__item_name">минут</span>
+								</div>
+								<div class="timer__decor">:</div>
+								<div class="timer__item" >
+									<div id="timer_s"></div>
+									<span class="timer__item_name">секунд</span>
+								</div>
+							</div> -->
+							<!-- <div class="btnBox__decor">
+								<div class="btnBox__decor_line"></div>
+								<div class="btnBox__decor_circle">
+									<p>$</p>
+								</div>
+							</div> -->
+						</div>
+						<img src="assets_back_end/img/header_img.png" alt="" class="decor">
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="digits">
+			<div class="container">
+				<div class="digits__flex">
+					<div class="digits_content">
+						<h2 class="ttl-block">О нас в цифрах</h2>
+						<div class="listBox">
+							<ul class="list">
+								<li class="list__item">
+									<p class="list__item_digits">12320</p>
+									<p class="list__item_txt">Инвестора работают с нами</p>
+								</li>
+								<li class="list__item">
+									<p class="list__item_digits">$188 447 974</p>
+									<p class="list__item_txt">Сумма вкладов в доверительном <br>управлении</p>
+								</li>
+							</ul>
+							<ul class="list">
+								<li class="list__item">
+									<p class="list__item_digits">2808 %</p>
+									<p class="list__item_txt">Общая  доходность фонда <br>за последний год</p>
+								</li>
+								<li class="list__item">
+									<p class="list__item_digits">15 лет</p>
+									<p class="list__item_txt">Наш опыт инвестирования</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<img src="assets_back_end/img/digits_img.png" alt="" class="decor">
+				</div>
+			</div>
+		</section>
+		<section class="promo">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">Промо-ролик о нашем фонде  </h2>
+				</div>
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/T4kk1l7Fb54" frameborder="0" class="video__src"></iframe>
+					<div class="video__poster poster_1">
+						<p class="poster_txt">Почему Blockchain Fund <br>	
+							За минуту <br>	
+							о Блокчейн Фонд
+						</p>
+						<div class="poster_play">
+							<div class="play play_1"></div>
+							<p class="play_txt">СМОТРЕТЬ <br> ВИДЕО</p>
+						</div>
+						<img src="assets_back_end/img/poster_1.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="comparison">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">Сравнение доходности</h2>
+					<p class="ttl-additions">За 2017 год доходность фонда превысила <br>суммарный рост биткоина, золота и акций сбербанка</p>
+				</div>
+				<div class="comparisonBox">
+					<div class="comparisonBox__item">
+						<div class="comparisonBox__item_img">
+							<img src="assets_back_end/img/comparison_img_1.png" alt="">
+						</div>
+						<p class="comparisonBox__item_name">Золото</p>
+						<p class="comparisonBox__item_income">Доходность за 1 год</p>
+						<p class="comparisonBox__item_percent">5%</p>
+						<div class="comparisonBox__item_line"></div>
+					</div>
+					<div class="comparisonBox__item">
+						<div class="comparisonBox__item_img">
+							<img src="assets_back_end/img/comparison_img_2.png" alt="">
+						</div>
+						<p class="comparisonBox__item_name">Акции сбербанка</p>
+						<p class="comparisonBox__item_income">Доходность за 1 год</p>
+						<p class="comparisonBox__item_percent">16%</p>
+						<div class="comparisonBox__item_line"></div>
+					</div>
+					<div class="comparisonBox__item">
+						<div class="comparisonBox__item_img">
+							<img src="assets_back_end/img/comparison_img_3.png" alt="">
+						</div>
+						<p class="comparisonBox__item_name">Биткоин</p>
+						<p class="comparisonBox__item_income">Доходность за 1 год</p>
+						<p class="comparisonBox__item_percent">282,5%</p>
+					</div>
+					<div class="comparisonBox__item ">
+						<div class="comparisonBox__item_img">
+							<img src="assets_back_end/img/comparison_img_4.png" alt="">
+						</div>
+						<p class="comparisonBox__item_name">Blockchain Fund</p>
+						<p class="comparisonBox__item_income">Доходность за 1 год</p>
+						<p class="comparisonBox__item_percent">937%</p>
+					</div>
+				</div>
+				<div class="application">
+					<button class="btn">Стать партнером</button>
+				</div>
+			</div>
+		</section>
+		<section class="causes">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">
+						4 причины начать бизнес <br>
+						с <span class="blue">Blockchain fund</span>
+					</h2>
+				</div>
+				<div class="causes-box">
+					<div class="causes-item">
+						<img src="assets_back_end/img/causes_img1.png" alt="" class="causes-item__img">
+						<p class="causes-item__ttl">Уникальный продукт </p>
+						<p class="causes-item__txt">Вам не нужно предлагать<br>
+								кому то бады или средства<br>
+								для похудения. <br>
+								Основным продуктом фонда <br>
+								является управление <br> 
+								капиталом инвесторов  <br>
+								на криптовалютном рынке
+						</p>
+					</div>
+					<div class="causes-item">
+						<img src="assets_back_end/img/causes_img2.png" alt="" class="causes-item__img">
+						<p class="causes-item__ttl">Высокий спрос</p>
+						<p class="causes-item__txt">
+							Клиентами и партнерами<br>
+							фонда являются практически<br> 
+							все, кто заинтересован<br>
+							в приумножении личного<br> 
+							капитала и в получении<br> 
+							пассивного дохода<br>
+							от собственной МЛМ структуры 
+						</p>
+					</div>
+					<div class="causes-item">
+						<img src="assets_back_end/img/causes_img3.png" alt="" class="causes-item__img">
+						<p class="causes-item__ttl">Пассивный доход без продаж и структуры </p>
+						<p class="causes-item__txt">
+							Партнеры фонда могут <br>
+							ежемесячно получать до 43% <br>
+							пассивного дохода, <br> 
+							независимо от размера <br> 
+							структуры и количества <br>
+							 привлеченных инвесторов 
+						</p>
+					</div>
+					<div class="causes-item">
+						<img src="assets_back_end/img/causes_img4.png" alt="" class="causes-item__img">
+						<p class="causes-item__ttl">Прозрачность <br>	 и открытость</p>
+						<p class="causes-item__txt">
+							Ежемесячно, фонд публикует <br>
+							актуальные отчеты <br>
+							о своей прибыли/убытках <br> 
+							показывая прозрачность <br>
+							деятельности
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="warranty">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block" id="income">На чем зарабатывают партнеры фонда?</h2>
+					<p class="ttl-additions">Каждый выбирает для себя тот путь, который считает наиболее доходным
+							Большинство партнеров зарабатывают сразу на всех 3-х направлениях
+					</p>
+				</div>
+			</div>
+			<div class="diamonds">
+				<div class="container">
+					<ul class="diamonds__flex">
+						<li class="diamonds__flex_item diamonds_1">
+							<div class="diamondsContent">
+								<img src="assets_back_end/img/diamonds_img1.png" alt="" class="diamondsContent__img">
+								<p class="diamondsContent__ttl">Франшизы</p>
+								<p class="diamondsContent__txt">Выстраивайте структуру<br> и получайте доход<br> от 5% до 21% <br>с оборота партнеров</p>
+							</div>
+						</li>
+						<li class="diamonds__flex_item diamonds_2">
+							<div class="diamondsContent">
+								<img src="assets_back_end/img/diamonds_img2.png" alt="" class="diamondsContent__img">
+								<p class="diamondsContent__ttl">Инвесторы</p>
+								<p class="diamondsContent__txt">Зарабатывайте<br> на привлечении<br> инвесторов  ежемесячно<br> получая до 21% <br> от их дохода</p>
+							</div>
+						</li>
+						<li class="diamonds__flex_item diamonds_3">
+							<div class="diamondsContent">
+								<img src="assets_back_end/img/diamonds_img3.png" alt="" class="diamondsContent__img">
+								<p class="diamondsContent__ttl">Инвестиции</p>
+								<p class="diamondsContent__txt">Ежемесячно получайте<br> до 43% пассивного<br> дохода<br> от собственных<br> инвестиций</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="package">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block" id="fra">Пакеты франшиз</h2>
+					<p class="ttl-additions">
+						Размер дохода партнера зависит от статуса и приобретенной им франшизы
+					</p>
+				</div>
+				<div class="packageBox">
+					<div class="packageBox__item">
+						<h3 class="packageBox__item_ttl">
+							Start <br>
+							<span class="black">250$</span>
+						</h3>
+						<ul class="packageList">
+							<li class="packageList__item">Вознаграждение 1 уровень -  5% со 2 по 5 ур. - 5%</li>
+							<li class="packageList__item">Возможность получать доход до 9% со всей глубины структуры без ограничений по уровню </li>
+							<li class="packageList__item">Докупка пакета с большей доходностью - да</li>
+							<li class="packageList__item">Сумма распределяемая на инвестиции - $0</li>
+							<li class="packageList__item">Возможность пополнения инвестиционного счета - от $100</li>
+							<li class="packageList__item">Средний доход от инвестиций - 43% в месяц</li>
+							<li class="packageList__item">Единоразовый бонус за достижение квалификаций – от $100 до $2 000</li>
+							<li class="packageList__item">Лидерский бонус - от $5 000 до $1 000 000</li>
+						</ul>
+						<button class="btn">Начать сейчас</button>
+					</div>
+					<div class="packageBox__item">
+						<h3 class="packageBox__item_ttl">
+							Classic <br>
+							<span class="black">1000$</span>
+						</h3>
+						<ul class="packageList">
+							<li class="packageList__item">Вознаграждение 1 уровень - 13%  со 2 по 5 ур. - 7%</li>
+							<li class="packageList__item">Возможность получать доход до 9% со всей глубины структуры без ограничений по уровню </li>
+							<li class="packageList__item">Докупка пакета с большей доходностью - да</li>
+							<li class="packageList__item">Сумма распределяемая на инвестиции - $500</li>
+							<li class="packageList__item">Возможность пополнения инвестиционного счета - от $100</li>
+							<li class="packageList__item">Средний доход от инвестиций - 43% в месяц</li>
+							<li class="packageList__item">Единоразовый бонус за достижение квалификаций – от $100 до $2 000</li>
+							<li class="packageList__item">Лидерский бонус - от $5 000 до $1 000 000</li>
+						</ul>
+						<button class="btn">Начать сейчас</button>
+					</div>
+					<div class="packageBox__item">
+						<h3 class="packageBox__item_ttl">
+							Business <br>
+							<span class="black">5000$</span>
+						</h3>
+						<ul class="packageList">
+							<li class="packageList__item">Вознаграждение 1 уровень -  17% со 2 по 5 ур. - 9%</li>
+							<li class="packageList__item">Возможность получать доход до 9% со всей глубины структуры без ограничений по уровню </li>
+							<li class="packageList__item">Докупка пакета с большей доходностью - да</li>
+							<li class="packageList__item">Сумма распределяемая на инвестиции - $2500</li>
+							<li class="packageList__item">Возможность пополнения инвестиционного счета - от $100</li>
+							<li class="packageList__item">Средний доход от инвестиций - 43% в месяц</li>
+							<li class="packageList__item">Единоразовый бонус за достижение квалификаций – от $100 до $2 000</li>
+							<li class="packageList__item">Лидерский бонус - от $5 000 до $1 000 000</li>
+						</ul>
+						<button class="btn">Начать сейчас</button>
+					</div>
+					<div class="packageBox__item">
+						<h3 class="packageBox__item_ttl">
+							Premium <br>
+							<span class="black">10000$</span>
+						</h3>
+						<ul class="packageList">
+							<li class="packageList__item">Вознаграждение 1 уровень - 21%  со 2 по 5 ур. - 11%</li>
+							<li class="packageList__item">Возможность получать доход до 9% со всей глубины структуры без ограничений по уровню</li>
+							<li class="packageList__item">Докупка пакета с большей доходностью - да</li>
+							<li class="packageList__item">Сумма распределяемая на инвестиции - $5000</li>
+							<li class="packageList__item">Возможность пополнения инвестиционного счета - от $100</li>
+							<li class="packageList__item">Средний доход от инвестиций - 43% в месяц</li>
+							<li class="packageList__item">Единоразовый бонус за достижение квалификаций – от $100 до $2 000</li>
+							<li class="packageList__item">Лидерский бонус - от $5 000 до $1 000 000</li>
+						</ul>
+						<button class="btn">Начать сейчас</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">
+						Почему выбирают Blockchain fund?
+					</h2>
+					<p class="ttl-additions">Уже более 12 000 партнеров сменили традиционный сетевой бизнес<br> на Blockchain fund.</p>
+				</div>
+				<div class="advantages-box">
+					<div class="standard-box">
+						<p class="ttl_box"><span class="blue">Традиционный</span>сетевой бизнес</p>
+						<div class="advantages-item standard">
+							<p class="advantages-item__txt standard__element1">
+								<b>Дистрибьюция товаров с высокой конкуренцией.</b> <br>
+								В основном это товары в которых огромная конкуренция как между сетевыми компаниями так и производителями более дешевых, аналоговых вариантов для масс-маркета. Например к ним относятся порошки, крема, бады и т.д.
+							</p>
+							<p class="advantages-item__txt standard__element2">
+								<b>
+									Доход только от продажи товара
+									и выстроенной структуры. <br>
+								</b>
+								В подавляющем большинстве сетевых компаний, доход возможно получить только от продажи товара, либо от выстроенной структуры. Альтернативных способов получения дохода такие компания 
+								не предоставляют. 
+							</p>
+							<p class="advantages-item__txt standard__element3">
+								<b>Необходимо постоянно подогревать интерес к продукции. </b> <br>
+								Покупая продукцию МЛМ компаний, через некоторое время люди теряют к ней интерес и возвращаются к аналогичным товарам продающимся в супермаркетах 
+								по более дешевым ценам.
+							</p>
+							<p class="advantages-item__txt standard__element4">
+								<b>Устаревшие технологии.</b> <br>
+								Множество МЛМ компаний и сетевиков 
+								до сих пор используют устаревшие, 
+								и малоэффективные способы для привлечения новых кандидатов ,такие как: списки знакомых, буклеты, спам в соц сетях, email рассылки и т.д.
+							</p>
+							<p class="advantages-item__txt standard__element5">
+								<b>Необходимо обязательно покупать товары компании.</b><br>
+								Часто в сетевых компаниях действует принцип, что каждый дистрибьютор должен регулярно приобретать продукцию компании. Зачастую такие траты могут “съедать” и даже перекрывать весь доход партнера полученный от сетевого бизнеса.
+							</p>
+						</div>
+					</div>
+					<div class="blockchain-box">
+						<p class="ttl_box">Сетевой бизнес с <span class="blue">Blockchain fund</span></p>
+						<div class="advantages-item blockchain">
+							<p class="advantages-item__txt blockchain__element1">
+								<b>Отсутствие физических товаров.</b> <br>
+								Основной услугой фонда является доверительное управление криптовалютными активами. Таким образом, у компании отсутствует товарная дистрибьюция, а  конкуренция, в силу уникальности этой услуги, крайне мала.
+							</p>
+							<p class="advantages-item__txt blockchain__element2">
+								<b>Пассивный доход без продаж </b><br>
+								и структуры.
+								Купив франшизу, партнер автоматически приобретает  возможность ежемесячно получать в среднем 43% прибыли 
+								с инвестиционной части.Таким образом, не важно на сколько большая у вас структура или сколько инвесторов вы привлекли.
+							</p>
+							<p class="advantages-item__txt blockchain__element3">
+								<b>Продукт продает сам себя.</b> <br>
+								Получая доход от работы с фондом, инвесторы сами начинают советовать его своим друзьям и знакомым используя полученную прибыль в качестве основного аргумента. При этом, интерес самих инвесторов  только возрастает. 
+							</p>
+							<p class="advantages-item__txt blockchain__element4">
+								<b>Современные инструменты маркетинга </b> <br>
+								и продаж.
+								На своих мастер-классах мы всегда рассказываем про современные 
+								и максимально эффективные инструменты маркетинга, которые позволяют привлекать новых кандидатов на автомате и без вашего участия.
+							</p>
+							<p class="advantages-item__txt blockchain__element5">
+								<b>Нет навязывания товаров или услуг.</b><br>
+								 В фонде отсутствуют условия по регулярным платежам и обязательному приобретению каких либо услуг/продуктов.
+								Все деньги, которые вы по своему желанию направляете на инвестиционный счет, по прежнему находятся в вашем распоряжении и могут быть выведены вами в любой момент. Кроме того, приобретаемая вами франшиза, не имеет срока действия
+								 и не требует продления.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-m">
+					<div class="advantages-m__item standard-m">
+						<div class="advantages-m__item_content">
+							<p class="standard-m__ttl">Традиционный сетевой бизнес</p>
+							<p class="standard-m__txt">
+								<b>Дистрибьюция товаров с высокой конкуренцией.</b> <br>
+								В основном это товары в которых огромная конкуренция 
+								как между сетевыми компаниями так и производителями более дешевых, аналоговых вариантов для масс-маркета. 
+								Например к ним относятся порошки, крема, бады и т.д.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item blockchain-m">
+						<div class="advantages-m__item_content">
+							<p class="blockchain-m__ttl">Сетевой бизнес с Blockchain fund</p>
+							<p class="blockchain-m__txt">
+								<b>Отсутствие физических товаров.</b> <br>
+								Основной услугой фонда является доверительное управление криптовалютными активами. Таким образом, у компании отсутствует товарная дистрибьюция, а  конкуренция, 
+								в силу уникальности этой услуги, крайне мала.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item standard-m">
+						<div class="advantages-m__item_content">
+							<p class="standard-m__ttl">Традиционный сетевой бизнес</p>
+							<p class="standard-m__txt">
+								<b>Доход только от продажи товара и выстроенной структуры.</b> <br>
+								В подавляющем большинстве сетевых компаний, доход возможно получить только от продажи товара, либо 
+								от выстроенной структуры. Альтернативных способов получения дохода такие компания не предоставляют. 
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item blockchain-m">
+						<div class="advantages-m__item_content">
+							<p class="blockchain-m__ttl">Сетевой бизнес с Blockchain fund</p>
+							<p class="blockchain-m__txt">
+								<b>Пассивный доход без продаж и структуры.</b><br>
+								Купив франшизу, партнер автоматически приобретает  возможность ежемесячно получать в среднем 43% прибыли 
+								с инвестиционной части.Таким образом, не важно 
+								на сколько большая у вас структура или сколько инвесторов вы привлекли.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item standard-m">
+						<div class="advantages-m__item_content">
+							<p class="standard-m__ttl">Традиционный сетевой бизнес</p>
+							<p class="standard-m__txt">
+								<b>Необходимо постоянно подогревать интерес к продукции.</b><br>
+								Покупая продукцию МЛМ компаний, через некоторое время люди теряют к ней интерес и возвращаются к аналогичным товарам продающимся в супермаркетах по более дешевым ценам.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item blockchain-m">
+						<div class="advantages-m__item_content">
+							<p class="blockchain-m__ttl">Сетевой бизнес с Blockchain fund</p>
+							<p class="blockchain-m__txt">
+								<b>Продукт продает сам себя.</b><br>
+								Получая доход от работы с фондом, инвесторы сами начинают советовать его своим друзьям и знакомым используя полученную прибыль в качестве основного аргумента. 
+								При этом, интерес самих инвесторов только возрастает. 
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item standard-m">
+						<div class="advantages-m__item_content">
+							<p class="standard-m__ttl">Традиционный сетевой бизнес</p>
+							<p class="standard-m__txt">
+								<b>Устаревшие технологии.</b><br>
+								Множество МЛМ компаний и сетевиков до сих пор используют устаревшие, и малоэффективные способы 
+								для привлечения новых кандидатов ,такие как: списки знакомых, буклеты, спам в соц сетях, email рассылки и т.д.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item blockchain-m">
+						<div class="advantages-m__item_content">
+							<p class="blockchain-m__ttl">Сетевой бизнес с Blockchain fund</p>
+							<p class="blockchain-m__txt">
+								<b>Современные инструменты маркетинга и продаж.</b><br>
+								На своих мастер-классах мы всегда рассказываем про современные и максимально эффективные инструменты маркетинга, которые позволяют привлекать новых кандидатов на автомате и без вашего участия.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item standard-m">
+						<div class="advantages-m__item_content">
+							<p class="standard-m__ttl">Традиционный сетевой бизнес</p>
+							<p class="standard-m__txt">
+								<b>Необходимо обязательно покупать товары компании.</b><br>
+								Часто в сетевых компаниях действует принцип, что каждый дистрибьютор должен регулярно приобретать продукцию компании. Зачастую такие траты могут “съедать” и даже перекрывать весь доход партнера полученный от сетевого бизнеса.
+							</p>
+						</div>
+					</div>
+					<div class="advantages-m__item blockchain-m">
+						<div class="advantages-m__item_content">
+							<p class="blockchain-m__ttl">Сетевой бизнес с Blockchain fund</p>
+							<p class="blockchain-m__txt">
+								<b>Нет навязывания товаров или услуг.</b><br>
+								В фонде отсутствуют условия по регулярным платежам 
+								и обязательному приобретению каких либо услуг/продуктов. 
+								Все деньги, которые вы по своему желанию направляете 
+								на инвестиционный счет, по прежнему находятся в вашем распоряжении и могут быть выведены вами в любой момент.
+								Кроме того, приобретаемая вами франшиза, не имеет срока действия и не требует продления.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="btn">Стать партнером</button>
+				</div>
+			</div>
+		</section>
+		<section class="work_dark">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block" id="invest">Примеры выплат партнерам </h2>
+					<p class="ttl-additions">Все выплаты производятся в долларах и могут быть<br>
+						выведены сразу после зачисления 
+					</p>
+				</div>
+
+				<div class="workBox ">
+					<div class="workBox__item workBox_item1">
+						<h3 class="workBox__ttl"><b>Прибыль партнера за 02.12.2017г. – <span class="blue">$2 400</span></b>
+						</h3>
+					</div>
+					<div class="work_poster work_poster1">
+						<img src="assets_back_end/img/work_poster1.jpg" alt="">
+					</div>
+				</div>
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">
+							<b>
+								Прибыль партнера за 08.01.2018г. – <span class="blue">$242.81</span>
+							</b>
+						</h3>
+					</div>
+					<div class="work_poster">
+						<img src="assets_back_end/img/work_poster2.jpg" alt="">
+					</div>
+				</div>
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">
+							<b>
+								Прибыль партнера за  с 13.12.2017 по 14.12.2017г. – <span class="blue">$2 657,71</span>
+							</b>
+						</h3>
+					</div>
+					<div class="work_poster">
+						<img src="assets_back_end/img/work_poster3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block" id="alms">Благотворительная деятельность</h2>
+					<p class="ttl-additions">Ежегодно фонд жертвует часть своей прибыли детским домам по всей России</p>
+				</div>
+
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">Благотворительная акция Блокчейн Фонда, Новый год для детей <br>из города Уфы и Давлеканово</h3>
+					</div>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/cbZbddD2Lcw" frameborder="0" class="video__src"></iframe>
+						<div class="video__poster poster_2">
+							<p class="poster_txt">Благотворительная акция<br>
+									Блокчейн Фонда,<br>
+									Новый год для детей<br>
+									из города Уфы и Давлеканово
+							</p>
+							<div class="poster_play">
+								<div class="play play_2"></div>
+								<p class="play_txt">СМОТРЕТЬ <br> ВИДЕО</p>
+							</div>
+							<img src="assets_back_end/img/poster_2.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">Благотворительная акция Блокчейн Фонда Новый год для детского <br>дома в Тюмени </h3>
+					</div>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/cbZbddD2Lcw" frameborder="0" class="video__src"></iframe>
+						<div class="video__poster poster_3">
+							<p class="poster_txt">Благотворительная акция<br>
+									Блокчейн Фонда,<br>
+									Новый год для детей<br>
+									в Тюмени
+							</p>
+							<div class="poster_play">
+								<div class="play play_3"></div>
+								<p class="play_txt">СМОТРЕТЬ <br> ВИДЕО</p>
+							</div>
+							<img src="assets_back_end/img/poster_3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="persons">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">ТОП-Менеджмент </h2>
+				</div>
+				<div class="personsBox">
+					<div class="personsBox__item">
+						<div class="personsBox__item_photo">
+							<img src="assets_back_end/img/persons_1.jpg" alt="">
+						</div>
+						<p class="personsBox__item_name">Андрей Карпухов</p>
+						<p class="personsBox__item_course">Основатель фонда</p>
+					</div>
+					<div class="personsBox__item">
+						<div class="personsBox__item_photo">
+							<img src="assets_back_end/img/persons_2.jpg" alt="">
+						</div>
+						<p class="personsBox__item_name">Кирилл Мужиков</p>
+						<p class="personsBox__item_course">Управляющий партнер</p>
+					</div>
+					<div class="personsBox__item">
+						<div class="personsBox__item_photo">
+							<img src="assets_back_end/img/persons_3.jpg" alt="" style="filter: grayscale(100%)">
+						</div>
+						<p class="personsBox__item_name">Илья Матюхин</p>
+						<p class="personsBox__item_course">Сетевой эксперт, спикер,<br>предприниматель</p>
+					</div>
+					<div class="personsBox__item">
+						<div class="personsBox__item_photo">
+							<img src="assets_back_end/img/persons_4.jpg" alt="">
+						</div>
+						<p class="personsBox__item_name">Сергей Каминский</p>
+						<p class="personsBox__item_course">Didjital Маркетолог</p>
+					</div>
+				</div>
+				<div class="text-center">
+					<button class="btn">Присоединиться к команде</button>
+				</div>
+			</div>
+		</section>
+		<section class="work_dark">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="ttl-block">Как все начиналось </h2>
+				</div>
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">Открытие фонда</h3>
+					</div>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/Bo8fmM7WZ4s" frameborder="0" class="video__src"></iframe>
+						<div class="video__poster poster_4">
+							<p class="poster_txt">Грандиозное официальное<br>
+									открытие Blockchain Fund <br>	
+									(Блокчейн Фонд) <br>
+									31.03.2018 Москва, Yota Arena
+							</p>
+							<div class="poster_play">
+								<div class="play play_4"></div>
+								<p class="play_txt">СМОТРЕТЬ <br> ВИДЕО</p>
+							</div>
+							<img src="assets_back_end/img/poster_4.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="workBox ">
+					<div class="workBox__item workBox__item_1">
+						<h3 class="workBox__ttl">Открытие офиса в Москве</h3>
+					</div>
+					<div class="video">
+						<iframe src="https://www.youtube.com/embed/TZNN_7HN1Mk" frameborder="0" class="video__src"></iframe>
+						<div class="video__poster poster_5">
+							<p class="poster_txt">Открытие центрального офиса<br>
+									Blockchain Fund <br>
+									(Блокчейн Фонд) <br>
+									в Москве 2018 | b-fund.io
+							</p>
+							<div class="poster_play">
+								<div class="play play_5"></div>
+								<p class="play_txt">СМОТРЕТЬ <br> ВИДЕО</p>
+							</div>
+							<img src="assets_back_end/img/poster_5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="aboutUs">
+			<div class="container">
+				<h2 class="ttl-block">СМИ о нас</h2>
+				<div class="slider">
+					<div class="slide">
+						<a href="javascript:void(0)"  onclick="press('#press1')">
+							<img src="assets_back_end/img/slider/1.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press2')">
+							<img src="assets_back_end/img/slider/2.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)">
+							<img src="assets_back_end/img/slider/3.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press4')">
+							<img src="assets_back_end/img/slider/4.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press5')">
+							<img src="assets_back_end/img/slider/5.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press6')">
+							<img src="assets_back_end/img/slider/6.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press7')">
+							<img src="assets_back_end/img/slider/7.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press8')">
+							<img src="assets_back_end/img/slider/8.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press9')">
+							<img src="assets_back_end/img/slider/9.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press10')">
+							<img src="assets_back_end/img/slider/10.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press11')">
+							<img src="assets_back_end/img/slider/11.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+					<div class="slide">
+						<a href="javascript:void(0)" onclick="press('#press12')">
+							<img src="assets_back_end/img/slider/12.jpg" alt="" class="company_logo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<h2 class="ttl-block" id="contact">Контакты</h2>
+				<div class="contactBox">
+					<div class="contactBox__info">
+						<div class="contactBox__info_item">
+							<div class="phone">
+								<p class="contact_name">Телефон</p>
+								<p class="fz_big contact_info ">8 (499) 213 10 12</p>
+							</div>
+							<div class="address">
+								<p class="contact_name">Адрес</p>
+								<p class="contact_info">Пресненская набережная 12, <br>башня 'Федерации Запад', <br>37 эт.</p>
+							</div>
+							<div class="metro">
+								<p class="contact_name">Метро</p>
+								<p class="contact_info">Деловой центр / Международная</p>
+							</div>
+							<img src="assets_back_end/img/contact_decor.png" alt="" class="decor">
+						</div>
+						<img src="assets_back_end/img/contact_decor_2.png" alt="" class="decor_2">
+					</div>
+					<div class="contactBox__map">
+						<div class="mapNav">
+							<div class="mapNav__link">МОСКВА</div>
+							<div class="mapNav__link">АЛМА-АТА</div>
+							<div class="mapNav__link">АСТАНА</div>
+						</div>
+						<div class="mapInfo">
+							<div class="contactBox__map_item marker1">
+								<p class="map_address">Пресненская набережная 12, <br>башня 'Федерации Запад', 37 эт.</p>
+								<p class="map_phone">+7 495-12-771-53</p>
+								<p class="map_phone">8-800-350-77-53</p>
+							</div>
+							<div class="contactBox__map_item marker2">
+								<p class="map_address">пр. Достык 210А, БЦ Коктем<br>Гранд, 3-й блок, 6 этаж, офис 15</p>
+								<p class="map_phone">+7 (727) 220-31-98</p>
+							</div>
+							<div class="contactBox__map_item marker3">
+								<p class="map_address">ул. Бараева, 23, 3 этаж</p>
+								<p class="map_phone">+7 (778) 207-81-11</p>
+							</div>
+						</div>
+						<img src="assets_back_end/img/contact_decor_3.png" alt="" class="decor_3">
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- MENU -->
+		<div class="menu_open">
+			<div class="close">
+				<div class="close__lineOne"></div>
+				<div class="close__lineTwo"></div>
+			</div>
+			<ul class="nav">
+				<!-- <li class="nav__item"><a href="javascript:void(0)" class="nav__item_link home_active">Главная</a></li> -->
+				<li class="nav__item"><a href="javascript:void(0)" class="nav__item_link" onclick="slowScroll('#income')">На чем зарабатывают</a></li>
+				<li class="nav__item"><a href="javascript:void(0)" class="nav__item_link" onclick="slowScroll('#fra')">Франшиза</a></li>
+				<li class="nav__item"><a href="javascript:void(0)" class="nav__item_link" onclick="slowScroll('#alms')">Благотворительность</a></li>
+				<li class="nav__item"><a href="javascript:void(0)" class="nav__item_link" onclick="slowScroll('#contact')">Контакты</a></li>
+			</ul>
+		</div>
+		<!-- CALL BACK -->
+		<div class="callBack">
+			<div class="callBack__step1">
+				<img src="assets_back_end/img/call_back.png" alt="">
+			</div>
+			<div class="callBack__step2">
+				<p class="callBack__step2_phone">+7 111 222 33 44</p>
+				<a href="tel:+7 111 222 33 44" class="callBack__step2_link">Позвонить на наш номер</a>
+				<img class="callBack__step2_close" src="assets_back_end/img/call_back_close.png" alt="">
+			</div>
+		</div>
+		<!-- MODAL -->
+		<div class="overlay"></div>
+
+		<div class="wrp_modal">
+			<div class="modal">
+				<div class="modal__close">
+					<div class="modal__close_line1"></div>
+					<div class="modal__close_line2"></div>
+				</div>
+				<p class="modal__ttl">
+					<span class="bold">
+						Оставить заявку
+					</span>
+				</p>
+				<form action="" class="modal__form">
+					<input type="text" class="modal__form_name" placeholder="Имя">
+					<input type="text" class="modal__form_email" placeholder="mailname@mail.com">
+				</form>
+				<div class="btn">Отправить</div>
+			</div>
+		</div>
+
+		<div class="wrp-press" id="press1">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/1.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Для криптовалютчиков запустили службу<br> экстренной психологической помощи
+				</p>
+				<p class="modal-press__txt">
+					Компания Blockchain Fund, которая занимается покупкой 
+					и хранением криптовалют, решила запустить службу экстренной психологической помощи для майнеров криптовалюты.
+				</p>
+				<p class="modal-press__txt">
+					Поводом для создания службы поддержки стало резкое падение курса биткоина, в результате которого майнеры 
+					и инвесторы, вложившие большие деньги в данную криптовалюту, потерпели крах, передает Life.
+				</p>
+				<p class="modal-press__txt">
+					По словам владельца компании Андрея Карпухова, психологи помогут справиться майнерам и криптовалютным инвесторам 
+					с переживаниями, вернут их к нормальной жизни.
+				</p>
+				<p class="modal-press__txt">
+					Психолог Елена Пиховкина, которая будет работать на горячей линии, заявила, что пострадавшим от инвестиций в убыточную валюту действительно требуется поддержка, «чтобы человек 
+					не наделал глупостей».
+				</p>
+				<p class="modal-press__txt">
+					Пиховкина добавила, что у нее уже есть опыт работы с людьми, которые пережили финансовый крах – например, когда «подскочили» курсы евро и доллара в 2014 году.
+				</p>
+				<p class="modal-press__txt">
+					Напомним, во вторник биткоин терял стоимость на фоне ряда негати вных новостей, касающихся ограничения торговли 
+					и регулирования рынка криптовалют в разных странах. Всего 
+					он трижды с начала года падал ниже психологической отметки 
+					в 10 тыс. долларов.
+				</p>
+				<p class="modal-press__txt">
+					В среду биткоин начал восстанавливаться после падения ниже 6 тыс. долларов. Газета ВЗГЛЯД подробно писала, почему подросшему биткоину грозит новый крах.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">8 февраля 2018, 08:41</p>
+					<p class="press-info__txt">Текст: Наталья Ануфриева</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press2">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/2.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					В Москве заработала линия психологической помощи для шокированных обвалом биткоина
+				</p>
+				<p class="modal-press__txt">
+					Blockchain Fund запускает службу психологической помощи для тех, кто пострадал от обвала биткоина. Компания занимается покупкой и хранением криптовалюты, и её потенциальных клиентов этот вопрос, естественно, очень беспокоит.
+				</p>
+				<p class="modal-press__txt">
+					Некоторое время назад биткоин, который в 2017 году рос «на дрожжах», резко упал в цене – на торгах за него давали менее 7 тысяч долларов, хотя в конце прошлого года он достиг отметки в 20 тысяч долларов. Естественно, те, кто вложил большие деньги в биткоин, оказались в неприятной ситуации. 
+				</p>
+				<p class="modal-press__txt">
+					Эксперты отмечают, что такая ситуация вполне может привести к нервным срывам, депрессиям и даже суицидам. Владелец Blockchain Fund Андрей Карпухов рассказал, что теперь любой человек, который испытывает сильные переживания по поводу ситуации с курсом биткоина, может поговорить с психологом, который поможет не впадать в панику.
+				</p>
+				<p class="modal-press__txt">
+					«Прежде всего я в своей работе буду знакомиться с людьми, выслушаю их истории и потом буду давать консультации, как успокоиться и прийти в себя. Это очень важно, чтобы человек не наделал глупостей», - рассказала психолог Елена Пиховкина изданию Life.
+				</p>
+				<p class="modal-press__txt">
+					Специалист отметила, что уже работала с теми, кто потерпел финансовый крах, когда произошла девальвация рубля. Горячая линия начала работу 7 февраля 2018 года.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">08.02.18 14:30</p>
+					<p class="press-info__txt">Текст: Анна Синаревская</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press4">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/4.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Служба психологической помощи для майнеров начала работу в Москве
+				</p>
+				<p class="modal-press__txt">
+					Майнеры криптовалют, а также трейдеры, инвесторы и прочие граждане столицы Российской Федерации, чрезмерно переживающие из-за, например, падающего курса биткоина, смогут получать профессиональную психологическую помощь. Соответствующий стартап запустила компания Blockchain Fund, занимающаяся операциями с криптовалютами.
+				</p>
+				<p class="modal-press__txt">
+					Поводом для создания службы психологической помощи для криптовалютчиков стал резкий обвал биткоина, за которым следила общественность на протяжении последних дней. В конце прошлого года курс самой популярной криптовалюты бил все рекорды и приближался к двум десяткам тысяч долларов, а на днях биткоин рухнул ниже семи тысяч долларов, что, конечно же, не могло не вызвать панических настроений.
+				</p>
+				<p class="modal-press__txt">
+					Психологи говорят, что люди, потерявшие значительные объемы денежных средств из-за обвала биткоина, могут даже начать задумываться о суициде, так что ситуация, на самом деле, более, чем серьезная.
+				</p>
+				<p class="modal-press__txt">
+					"Люди, которых охватила паника, могут поговорить с квалифицированным специалистом и рассказать ему свою историю. Специалист, в свою очередь, даст профессиональную консультацию, поможет успокоиться и оценить ситуацию трезво", — говорит Елена Пиховкина, один из психологов, работающих на горячей линии.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">08 Февраля 2018 12:11</p>
+					<p class="press-info__txt">Текст: Колесников Андрей </p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press5">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/5.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Blockchain Fund provides "psychological support" lost from the jumps of the exchange rate of bitcoin
+				</p>
+				<p class="modal-press__txt">
+					The Russian company Blockchain Fund is launching a service of "emergency psychological assistance" in Moscow for those who are worried about the fall of the bitcoin rate.
+				</p>
+				<p class="modal-press__txt">
+					A sharp decline in bitcoin-in December, the price reached $ 20 thousand, and in recent days fell below $6 thousand – affected the financial position of those who invested in the cryptocurrency at a price peak. Nakupavshis expensive equipment beginners-miners, whose income has fallen along with the price, suffering losses. The most far-sighted psychologists of the company believe that this can even lead to mass suicides.
+				</p>
+				<p class="modal-press__txt">
+					According to the owner of the Blockchain Fund Andrey Karpachev, now the victim of investment into the cryptocurrency will be able to tell your story to qualified professionals who will help him to cope with emotions and return to a normal life, if that's even possible.
+				</p>
+				<p class="modal-press__txt">
+					The room free hot line for psychological assistance had to start work on 7 February, however, on the website of the company at the moment there is no contact information for seeking support. Recording on individual techniques and advice (probably paid for in a completely devalue bitcoin) is discussed separately.
+				</p>
+				<p class="modal-press__txt">
+					Meanwhile, the price of bitcoin has grown over the past two days and is now at $8000, partially won back the recent losses. If bitcoin will continue to demonstrate such irresponsible behavior, psychological support may be unnecessary.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">05.02.18</p>
+					<p class="press-info__txt">Текст: rollsman</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press6">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/6.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Душевным спокойствием московских криптотрейдеров займутся психологи
+				</p>
+				<p class="modal-press__txt">
+					Российская компания Blockchain Fund, занимающаяся покупкой и хранением криптовалют, 7 февраля запустила в Москве бесплатную службу экстренной психологической помощи для майнеров и криптовалютных инвесторов. Об этом пишет Life.
+				</p>
+				<p class="modal-press__txt">
+					Владелец компании Андрей Карпухов рассказывает, что идея сервиса родилась после резкого падения курса биткоина, в результате которого вложившиеся в криптовалюту люди понесли серьезные финансовые убытки.
+				</p>
+				<p class="modal-press__txt">
+					«Людей начинает охватывать паника, никто не понимает, что происходит. Сначала все было так хорошо на этом рынке, а теперь такие изменения. Прежде всего я в своей работе буду знакомиться с людьми, выслушаю их истории и потом буду давать консультации, как успокоиться и прийти в себя. Это очень важно, чтобы человек не наделал глупостей», — рассказала психолог Елена Пиховкина, добавив, что имеет опыт работы с людьми, пережившими финансовый кризис 2014 года.
+				</p>
+				<p class="modal-press__txt">
+					Запись на индивидуальные приемы и консультации обсуждается отдельно. Предварительную заявку на помощь можно также оставить и по электронной почте.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">08.02.2018</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press7">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/7.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Русская компания запустила горячую линию поддержки биткоин-инвесторов
+				</p>
+				<p class="modal-press__txt">
+					Российская компания запустила горячую линию поддержки Bitcoin-инвесторов, нацеленную на тех инвесторов, которые столкнулись с нисходящей траекторией рынка и не могут ее самостоятельно пережить. Московская компания Blockchain Fund запустила такую услугу, отвечая на звонки обезумевших инвесторов в начале этой недели, указывают Life.ru.
+				</p>
+				<p class="modal-press__txt">
+					Услуга несколько отличается от основной деятельности  Blockchain Fund, которая заключается в том, что компания покупает и хранит криптовалюты клиентов. Недавний обвал биткоина с $18,981 на Bitfinex до минимальных $6,000 заставил многих инвесторов думать, что они совершили ужасную ошибку, купив биткоин на максимумах. С тех пор биткоин восстановился до $8,000, тем не менее, некоторые инвесторы все еще сталкиваются с тем, что их портфель обвалился на 50% и более.
+				</p>
+				<p class="modal-press__txt">
+					Хочется надеяться, что сервис поможет справиться с депрессией и предотвратит самоубийства инвесторов после драматичных падений стоимости их активов. Криптосообещство весьма активно реагировало на распространение номеров горячих линий по предотвращению самоубийств инвесторов на фоне масштабной рыночной волатильности. В прошлом месяце пост на Reddit с номером горячей линии в США получил наибольшее количество голосов.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">09.02.2018</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press8">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/8.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Пострадавшим криптовалютчикам будет оказываться психологическая помощь 
+				</p>
+				<p class="modal-press__txt">
+					Номер бесплатной горячей линии начал свою работу 7 февраля. 
+				</p>
+				<p class="modal-press__txt">
+					Инвестиционный криптовалютный фонд Blockchain Fund объявил, что планирует запустить в Москве службу экстренной психологической помощи для тех, кто переживает по поводу падения курса биткоина и обстановки на криптовалютном рынке. Психологи Blockchain Fund считают, что очень большое количество людей может нуждаться в психологической помощи.
+				</p>
+				<p class="modal-press__txt">
+					Андрей Карпухов, основатель фонда, пояснил, что каждый пострадавший сможет рассказать свою историю квалифицированным специалистам, которые помогут ему справиться с переживаниями и вернуться к нормальной жизни.
+				</p>
+				<p class="modal-press__txt">
+					Номер горячей линии: +7 (936) 777-45-45 или 8 936 777-КОЙН
+				</p>
+				<p class="modal-press__txt">
+					Запись на индивидуальные приемы и консультации обсуждается отдельно. Предварительную заявку на помощь можно также оставить и по электронной почте.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">17:00 08.02.2018</p>
+					<p class="press-info__txt"> Источник: Банкир.Ру</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press9">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/9.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					FinTech-дайджест: стратегия развития финтеха, криптовалютные миллиардеры и тренды этого года
+				</p>
+				<p class="modal-press__txt">
+					Одна из горячих тем второй половины этой недели, безусловно, это публикация Центральным банком документа под названием «Основные направления развития финансовых технологий на период 2018-2020 гг». В нем описывается стратегия развития финансовых технологий в России на ближайшие три года. 
+				</p>
+				<p class="modal-press__txt">
+					Из основного: самые популярные технологии по версии ЦБ – Big Data и их аналитика, ИИ, роботизация, биометрия, облачные технологии, мобильные технологии, распределенные реестры.
+				</p>
+				<p class="modal-press__txt">
+					<b style="color:#000;">На что еще обратить внимание</b>
+				</p>
+				<p class="modal-press__txt">
+					Обязательно прочтите этот текст от «Храни Деньги», в котором собрана уйма полезной информации о наиболее выгодных пластиковых картах для оплаты в той или иной категории торгово-сервисных предприятий.
+				</p>
+				<p class="modal-press__txt">
+					Еще про карты, в частности, про «Тинькофф» – теперь владельцы Tinkoff Black могут сделать свои карты мультивалютными и использовать одну карту дома или за границей. Переключение валютного счета происходит в онлайн-банке или в мобильном приложении.
+				</p>
+				<p class="modal-press__txt">
+					Финтех-тренды 2018 года от генерального директора Plaid читаем по этой ссылке, а после можно почитать про будущее человека в роботизированной экономике от Дмитрия Шушкина (ABBYY Россия).
+				</p>
+				<p class="modal-press__txt">
+					Две основные мировые платежные системы – Mastercard и VISA, похоже, окончательно определились с криптовалютами. Операции по покупке крипты в итоге приравняли к выдаче наличных, покупке дорожных чеков и лотерейных билетов – quasi-cash, а приведенные в соответствие коды МСС увеличили комиссию за такие транзакции до 9%, вместо прежних 4%.
+				</p>
+				<p class="modal-press__txt">
+					Российские пользователи SWIFT обнаружили приятный бонус – примерно 40% скидку на услуги международной системы. Это связано с ростом трафика внутри системы почти на треть по сравнению с 2015 годом. Причем рост числа отправленных сообщений оказался настолько стремительным, что из трех предусмотренных SWIFT ступеней скидок позволил дойти сразу ко второй.
+				</p>
+				<p class="modal-press__txt">
+					В PayPal выпустили линейку мобильных POS-терминалов (mPos) для приема платежей через Apple Pay, Samsung Pay и G-Pay. Всего в линейке PayPal Here два терминала – Chip and Tap и Chip and Swipe.
+				</p>
+				<p class="modal-press__txt">
+					<b style="color:#000;">Что там с криптой?</b>
+				</p>
+				<p class="modal-press__txt">Думаю, что стоит хотя бы просто ознакомиться со списком самых богатых владельцев криптовалют, опубликованным Forbes.</p>
+				<p class="modal-press__txt">CoinDesk пишут, что Ripple – самое крупное разочарование для инвесторов. Говорят, что почти c $4 за монетку она скатилась до $0,86. Помнится, XRP стоил $0,22 еще осенью, так что запас прочности еще имеется.</p>
+				<p class="modal-press__txt">Группа математиков из Питтсбургского университета, используя математические модели, попыталась определить ценность биткоина, но что-то пошло не так и на выходе оказался «мыльный пузырь».</p>
+				<p class="modal-press__txt">Бытует мнение, что признать криптовалюту официальным платежным средством в некоторых государствах не дают банки, опасающиеся конкуренции. И эти же банки охотно признают блокчейн, как технологию. Единого мнения нет – каждая страна реагирует на крипту по-своему. Мир раздирают противоречия, а что на этот счет думают в России? Согласно статистике Центробанка, соотечественники предпочитают... традиционный банкинг!</p>
+				<p class="modal-press__txt">
+					Что там с биткоином? Монета сначала опустилась в цене до $6 тысяч, а затем «отскочила»  на уровень $8 тысяч+. А еще в Москве планируют запустить службу психологической поддержки для тех, кто инвестировал в биткоины (и другие криптовалюты), займется этим полезным делом Blockchain Fund.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">13:08, 9 февраля 2018</p>
+					<p class="press-info__txt"> Текст: Александр Попов </p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press10">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/10.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					В Москве заработала служба психологической помощи майнерам
+				</p>
+				<p class="modal-press__txt">
+					Российский стартап Blockchain Fund создал службу психологической помощи для людей, занимающихся операциями с цифровыми валютами: таких как майнеры, трейдеры и другие специалисты или любители, пишет Рамблер.
+				</p>
+				<p class="modal-press__txt">
+					По мнению создателей сервиса, необходимость в такой услуге возникла на фоне резкого обвала курса биткоина и других криптовалют – его можно было наблюдать с начала года.
+				</p>
+				<p class="modal-press__txt">
+					Стоимость самой популярной мировой криптовалюты упала ниже $7000, тогда как в конце прошлого года курс достигал $20 000. Это вызвало стресс и депрессию у многих инвесторов, которые вложились в биткоин или инвестировали средства в майнинг. Как отмечают психологи, сотрудничающие с проектом, такие драматичные события могут привести к тому, что люди начнут задумываться о самоубийствах.
+				</p>
+				<p class="modal-press__txt">
+					«Люди, которых охватила паника, могут поговорить с квалифицированным специалистом и рассказать ему свою историю. Специалист, в свою очередь, даст профессиональную консультацию, поможет успокоиться и оценить ситуацию трезво», – отметила психолог Елена Пиховкина, которая консультирует людей, пострадавших в результате обвала курса криптовалют.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">Февраль 9, 2018, 10:06</p>
+					<p class="press-info__txt"> Текст: Евгений Одиноков</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press11">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/11.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Незадачливым криптоинвесторам могут оказать бесплатную психологическую помощь
+				</p>
+				<p class="modal-press__txt">
+					По сообщению издания «Коммерсантъ», компанией Blockchain Fund было принято решение запустить службу экстренной психологической помощи, предназначенной гражданам, занимающимся инвестированием в криптовалюты. Как пояснили основатели, причина тому – резкое падение курса «виртуальных денег», что не могло не сказаться на душевном состоянии тех, кто в них вкладывается.
+				</p>
+				<p class="modal-press__txt">
+					После того как стоимость ключевых криптовалют начала стремительно снижаться, в компанию Blockchain Fund стало поступать очень много звонков – люди, большинство из которых не имеют инвесторского опыта или обладают минимальным, логичным образом испытали серьезный психологический дискомфорт. В итоге штатный психолог организации не смог в одиночку справиться с наплывом ищущих поддержки – потому и было решение создать отдельную службу.
+				</p>
+				<p class="modal-press__txt">
+					В компании рассказали, что пока помощь психолога оказывается бесплатно, однако, по словам владельца Blockchain Fund Андрея Карпухова, все ситуации индивидуальны, и если специалист посчитает необходимым получить за консультацию вознаграждение, он вправе это сделать.
+				</p>
+				<p class="modal-press__txt">
+					Стоит напомнить, что эксперты рынка связывают недавний стремительный обвал биткоина (ниже 10 тыс. долларов за единицу) с ужесточением госрегулирования крипторынка в двух ключевых для него государствах – в Корее и Китае.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">09.02.2018</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrp-press" id="press12">
+			<div class="modal-press">
+				<div class="modal-close">
+					<div class="modal-close__line1"></div>
+					<div class="modal-close__line2"></div>
+				</div>
+				<div class="modal-logo">
+					<img src="assets_back_end/img/slider/12.jpg" alt="" class="modal-logo__img">
+				</div>
+				<p class="modal-press__ttl">
+					Инвестиции в криптовалюту обсудили на Astana Digital Forum
+				</p>
+				<p class="modal-press__txt">
+					Цифровые технологии с уверенностью вошли в современную жизнь. Они развиваются и шагают вперед.
+				</p>
+				<p class="modal-press__txt">
+					О возможностях безграничного доступа к большому объему разнообразной информации и передовых разработках в сфере интернет-ресурсов говорили сегодня на Astana Digital Forum.
+				</p>
+				<p class="modal-press__txt">
+					Форум в рамках Astana Media Week стал площадкой открытых дискуссий. Лучшие эксперты в области медиа и интернет-маркетинга из Казахстана, Польши, России, Украины, Узбекистана и других стран практически в течение всего дня проводили открытые дискуссии и мастер-классы для участников форума. Обсудили такие темы как обзор рынка интернет рекламы в Казахстане, эффективное развитие бизнеса через прямые эфиры и вебинары в соцсетях, видеоблогинг в Казахстане, новые инструменты SMM-продвижения и Digital-рекламу. В столицу специально прибыли представители таких компаний как Google, Yandex. Mail.ru, чтобы раскрыть главный контент форума.
+				</p>
+				<p class="modal-press__txt">
+					Дискуссия на одну из самых актуальных тем современной эпохи - Цифровая экономика и инвестиции в криптовалюту - вызвала огромный интерес у участников форума. Ведь сегодня цифровая экономика - это основа, которая позволяет создавать новые модели бизнеса, торговли, логистики, производства и других направлений.
+				</p>
+				<p class="modal-press__txt" style="font-style: italic;">
+					Андрей Карпухов, президент Blockchain Fund (Россия):
+				</p>
+				<p class="modal-press__txt" style="font-style: italic;">
+					- Блокчейн технологии - это технологии, которые прозрачны для всего мира и могут частично уничтожить коррупцию в мире, потому что они прозрачны и все записи, которые делаются, не могут быть уничтожены. Пример использования: во-первых, можно проводить выборы президентов стран и другие выборы, депутатов в стране, и все голоса, которые будут записываться, будут на 100 процентов прозрачны. Второе использование - это, допустим, запись земельных реестров, записи различных государственных учреждений, где невозможно что-то изменить. Также блокчейн технологии позволяют использовать транзакции на любые суммы, где они проходят очень быстро, и они очень, скажем так, фактически бесплатно. Хранение цифровых активов на блокчейн технологиях настолько безопасно, что сегодня не представляется взлом этих систем, хотя мы знаем, что многие банки взламывают по 1-2 раза в год. Также на сегодняшний день очень популярны инвестиции в криптовалюту. Потому что если бы в 2009 году, когда криптовалюта, биткоин стоил 1 цент, проинвестировали бы 10 тысяч долларов, у человека было бы 4,2 млрд долларов состояние. Это самое популярное сегодня использование криптовалюты. Также, допустим, что человек создал музыку, какую-то песню написал, он тоже может записать это на технологии блокчейн и, соответственно, не будет споров, кто это создал.
+				</p>
+				<div class="press-info">
+					<p class="press-info__txt">05.10.2017, 18:35</p>
+				</div>
+			</div>
+		</div>
+		<!--Script-->
+		<script src="libs/jquery-3.2.1.min.js"></script>
+		<script src="libs/slick/slick.min.js"></script>
+		<script src="js/common.js"></script>
+	</body>
+
+</html>
